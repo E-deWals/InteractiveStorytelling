@@ -3488,114 +3488,114 @@ MonoBehaviour:
     description: 
     fmodEventEN:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1475802135
+        Data2: 1265698123
+        Data3: -1373753175
+        Data4: -187747627
+      Path: event:/Dialogue/EN/Smith/Dennis recording
     fmodEventALT:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1475802135
+        Data2: 1265698123
+        Data3: -1373753175
+        Data4: -187747627
+      Path: event:/Dialogue/EN/Smith/Dennis recording
   - lineID: line:03ae300
     description: 
     fmodEventEN:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 654491928
+        Data2: 1192505348
+        Data3: -1087060584
+        Data4: 2087255062
+      Path: event:/Dialogue/EN/Epheulia/Frosty recording-11
     fmodEventALT:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 654491928
+        Data2: 1192505348
+        Data3: -1087060584
+        Data4: 2087255062
+      Path: event:/Dialogue/EN/Epheulia/Frosty recording-11
   - lineID: line:0ab0309
     description: 
     fmodEventEN:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: -363638859
+        Data2: 1196188661
+        Data3: -1963042140
+        Data4: -1073663356
+      Path: event:/Dialogue/EN/Epheulia/Frosty recording-12
     fmodEventALT:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: -363638859
+        Data2: 1196188661
+        Data3: -1963042140
+        Data4: -1073663356
+      Path: event:/Dialogue/EN/Epheulia/Frosty recording-12
   - lineID: line:0f103db
     description: 
     fmodEventEN:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1541548830
+        Data2: 1101784829
+        Data3: 812984497
+        Data4: -183055277
+      Path: event:/Dialogue/EN/Epheulia/Frosty recording-13
     fmodEventALT:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1541548830
+        Data2: 1101784829
+        Data3: 812984497
+        Data4: -183055277
+      Path: event:/Dialogue/EN/Epheulia/Frosty recording-13
   - lineID: line:04f0346
     description: 
     fmodEventEN:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 695897459
+        Data2: 1096137220
+        Data3: -1125749859
+        Data4: -1684704303
+      Path: event:/Dialogue/EN/Smith/Dennis recording-01
     fmodEventALT:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 695897459
+        Data2: 1096137220
+        Data3: -1125749859
+        Data4: -1684704303
+      Path: event:/Dialogue/EN/Smith/Dennis recording-01
   - lineID: line:0fc3170
     description: 
     fmodEventEN:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 233348115
+        Data2: 1313945263
+        Data3: -1376024672
+        Data4: 1748064638
+      Path: event:/Dialogue/EN/Witch/Eevee recording-20
     fmodEventALT:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 233348115
+        Data2: 1313945263
+        Data3: -1376024672
+        Data4: 1748064638
+      Path: event:/Dialogue/EN/Witch/Eevee recording-20
   - lineID: line:080d6ac
     description: 
     fmodEventEN:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: -573002253
+        Data2: 1084597120
+        Data3: -851855998
+        Data4: 990885984
+      Path: event:/Dialogue/EN/Witch/Eevee recording-21
     fmodEventALT:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: -573002253
+        Data2: 1084597120
+        Data3: -851855998
+        Data4: 990885984
+      Path: event:/Dialogue/EN/Witch/Eevee recording-21
   - lineID: line:0a7849c
     description: 
     fmodEventEN:
@@ -3648,18 +3648,18 @@ MonoBehaviour:
     description: 
     fmodEventEN:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: -1862315477
+        Data2: 1276893781
+        Data3: -1949677169
+        Data4: -1346682489
+      Path: event:/Dialogue/EN/Smith/Dennis recording-02
     fmodEventALT:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: -1862315477
+        Data2: 1276893781
+        Data3: -1949677169
+        Data4: -1346682489
+      Path: event:/Dialogue/EN/Smith/Dennis recording-02
   - lineID: line:0b96f83
     description: 
     fmodEventEN:
@@ -3712,50 +3712,50 @@ MonoBehaviour:
     description: 
     fmodEventEN:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 484044013
+        Data2: 1316561102
+        Data3: 1244167601
+        Data4: -2124738864
+      Path: event:/Dialogue/EN/Epheulia/Frosty recording-14
     fmodEventALT:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 484044013
+        Data2: 1316561102
+        Data3: 1244167601
+        Data4: -2124738864
+      Path: event:/Dialogue/EN/Epheulia/Frosty recording-14
   - lineID: line:007797e
     description: 
     fmodEventEN:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1760767036
+        Data2: 1317043647
+        Data3: 1604694162
+        Data4: -641885057
+      Path: event:/Dialogue/EN/Cut off party member/Selkie recording-24
     fmodEventALT:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1760767036
+        Data2: 1317043647
+        Data3: 1604694162
+        Data4: -641885057
+      Path: event:/Dialogue/EN/Cut off party member/Selkie recording-24
   - lineID: line:02b1364
     description: 
     fmodEventEN:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1445287367
+        Data2: 1261582737
+        Data3: -133579361
+        Data4: 2069404454
+      Path: event:/Dialogue/EN/Epheulia/Frosty recording-15
     fmodEventALT:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1445287367
+        Data2: 1261582737
+        Data3: -133579361
+        Data4: 2069404454
+      Path: event:/Dialogue/EN/Epheulia/Frosty recording-15
   - lineID: line:0ecfeea
     description: 
     fmodEventEN:
@@ -11154,7 +11154,7 @@ PrefabInstance:
     - target: {fileID: 8309902628685535410, guid: 52571f68872914e24837210513edea1d,
         type: 3}
       propertyPath: startNode
-      value: RegularStreet
+      value: heroesParty
       objectReference: {fileID: 0}
     - target: {fileID: 8309902628685535410, guid: 52571f68872914e24837210513edea1d,
         type: 3}

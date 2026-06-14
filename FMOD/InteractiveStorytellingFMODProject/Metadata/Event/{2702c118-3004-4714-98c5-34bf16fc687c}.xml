@@ -8,7 +8,7 @@
 			<value>0</value>
 		</property>
 		<relationship name="folder">
-			<destination>{3bd5ea72-6221-4256-a16d-7002907e580d}</destination>
+			<destination>{14cca731-aeb2-4ea5-a2d0-df18d57ab401}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{37efe0a2-bb06-41ef-b4fe-aca42acd63f7}</destination>
@@ -90,7 +90,10 @@
 	<object class="MixerBusPanner" id="{f8d311d9-3b92-497e-8258-065f7d9cd5d4}" />
 	<object class="SingleSound" id="{30a82924-b245-4a9c-bde4-ae9d92f2c4a0}">
 		<property name="length">
-			<value>5.0677551020408167</value>
+			<value>4.6677551020408181</value>
+		</property>
+		<property name="timelockedOffset">
+			<value>0.40000000000000002</value>
 		</property>
 		<property name="name">
 			<value>Frosty recording-11</value>

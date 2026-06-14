@@ -90,7 +90,10 @@
 	<object class="MixerBusPanner" id="{d9a9c0a0-3b87-4e19-bcbf-e858e9985998}" />
 	<object class="SingleSound" id="{98b1a848-310f-48ac-8d88-93d4d8f43b7c}">
 		<property name="length">
-			<value>9.2473469387755109</value>
+			<value>8.947346938775512</value>
+		</property>
+		<property name="timelockedOffset">
+			<value>0.30000000000000004</value>
 		</property>
 		<property name="name">
 			<value>Eevee recording-20</value>

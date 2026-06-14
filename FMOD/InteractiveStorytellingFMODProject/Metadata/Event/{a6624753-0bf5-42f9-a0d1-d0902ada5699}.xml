@@ -90,7 +90,10 @@
 	<object class="MixerBusPanner" id="{ee532328-e2ca-4f0f-9cdf-9d201b52ff01}" />
 	<object class="SingleSound" id="{073663f0-565b-4422-9234-52964b09a52e}">
 		<property name="length">
-			<value>2.063673469387755</value>
+			<value>1.4236734693877544</value>
+		</property>
+		<property name="timelockedOffset">
+			<value>0.64000000000000012</value>
 		</property>
 		<property name="name">
 			<value>Selkie recording-25</value>
@@ -100,6 +103,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{c79dddb5-956e-4567-be0b-fe71e8e90907}">
+		<property name="volume">
+			<value>-10</value>
+		</property>
 		<property name="name">
 			<value>Track</value>
 		</property>

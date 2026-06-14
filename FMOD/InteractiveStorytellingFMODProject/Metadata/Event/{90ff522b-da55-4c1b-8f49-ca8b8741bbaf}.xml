@@ -90,7 +90,10 @@
 	<object class="MixerBusPanner" id="{bd2a61de-cc8c-41d4-a788-32be66de0ff5}" />
 	<object class="SingleSound" id="{93f563ee-353c-48bf-ba6a-558405b4d5c5}">
 		<property name="length">
-			<value>3.0824489795918368</value>
+			<value>1.9824489795918359</value>
+		</property>
+		<property name="timelockedOffset">
+			<value>1.1000000000000001</value>
 		</property>
 		<property name="name">
 			<value>Dennis recording-02</value>
