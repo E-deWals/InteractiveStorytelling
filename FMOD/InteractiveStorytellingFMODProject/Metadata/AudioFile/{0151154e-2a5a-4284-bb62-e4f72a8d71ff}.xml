@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{0151154e-2a5a-4284-bb62-e4f72a8d71ff}">
+		<property name="assetPath">
+			<value>Eevee recording sesg-consolidated_freeze-006.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>4.6223129251700676</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{06989a4d-a27a-48e6-86f1-116b6b9f3f01}</destination>
+		</relationship>
+	</object>
+</objects>

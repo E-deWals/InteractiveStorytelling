@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{6b6778c5-83b1-42a6-983e-06f4db0ee7c4}">
+		<property name="assetPath">
+			<value>Frosty recording-33.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>11.859591836734694</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{06989a4d-a27a-48e6-86f1-116b6b9f3f01}</destination>
+		</relationship>
+	</object>
+</objects>

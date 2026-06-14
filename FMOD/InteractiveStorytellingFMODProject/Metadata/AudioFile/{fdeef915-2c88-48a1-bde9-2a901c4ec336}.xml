@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{fdeef915-2c88-48a1-bde9-2a901c4ec336}">
+		<property name="assetPath">
+			<value>Eevee recording-13.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>9.7436734693877547</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{06989a4d-a27a-48e6-86f1-116b6b9f3f01}</destination>
+		</relationship>
+	</object>
+</objects>

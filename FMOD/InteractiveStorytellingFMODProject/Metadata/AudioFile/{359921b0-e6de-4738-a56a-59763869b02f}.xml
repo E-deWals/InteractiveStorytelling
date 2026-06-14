@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{359921b0-e6de-4738-a56a-59763869b02f}">
+		<property name="assetPath">
+			<value>Dennis recording-09.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>2.5600000000000001</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{06989a4d-a27a-48e6-86f1-116b6b9f3f01}</destination>
+		</relationship>
+	</object>
+</objects>

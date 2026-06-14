@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="EventFolder" id="{37d84864-7ec0-4965-8d04-9b16f5e4180a}">
+		<property name="name">
+			<value>Cut off party member</value>
+		</property>
+		<relationship name="folder">
+			<destination>{f907b9d1-ce56-4581-8c6f-0a3a9554f2e0}</destination>
+		</relationship>
+	</object>
+</objects>
