@@ -65,7 +65,7 @@ public class FMODDialogueView : DialoguePresenterBase
         instance = RuntimeManager.CreateInstance(fmodEvent);
         if (!instance.isValid())
         {
-            Debug.LogError($"[FMODDialogueView] Invalid FMOD instance for '{fmodEvent.Path}'.");
+            //Debug.LogError($"[FMODDialogueView] Invalid FMOD instance for '{fmodEvent.Path}'.");
             return YarnTask.CompletedTask;
         }
 
@@ -75,7 +75,7 @@ public class FMODDialogueView : DialoguePresenterBase
         instance.setVolume(1f);
 
         var result = instance.start();
-        if (log) Debug.Log($"[FMODDialogueView] start() -> {result} ({fmodEvent.Path})");
+        //if (log) Debug.Log($"[FMODDialogueView] start() -> {result} ({fmodEvent.Path})");
 
         if (result != FMOD.RESULT.OK)
         {
