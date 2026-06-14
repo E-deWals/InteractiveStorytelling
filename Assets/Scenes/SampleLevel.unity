@@ -2016,114 +2016,114 @@ MonoBehaviour:
     description: 
     fmodEventEN:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: -1091402125
+        Data2: 1143023206
+        Data3: 1105580175
+        Data4: 1572646051
+      Path: event:/Dialogue/EN/Baker/Dennis recording-07
     fmodEventALT:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: -1091402125
+        Data2: 1143023206
+        Data3: 1105580175
+        Data4: 1572646051
+      Path: event:/Dialogue/EN/Baker/Dennis recording-07
   - lineID: line:0bbc278
     description: 
     fmodEventEN:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 250589610
+        Data2: 1113536126
+        Data3: 1859850140
+        Data4: -1983427598
+      Path: event:/Dialogue/EN/Mother/Selkie recording
     fmodEventALT:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 250589610
+        Data2: 1113536126
+        Data3: 1859850140
+        Data4: -1983427598
+      Path: event:/Dialogue/EN/Mother/Selkie recording
   - lineID: line:0c589e9
     description: 
     fmodEventEN:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: -2073879735
+        Data2: 1156477931
+        Data3: -863498580
+        Data4: 1035039562
+      Path: event:/Dialogue/EN/Baker/Dennis recording-08
     fmodEventALT:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: -2073879735
+        Data2: 1156477931
+        Data3: -863498580
+        Data4: 1035039562
+      Path: event:/Dialogue/EN/Baker/Dennis recording-08
   - lineID: line:097c719
     description: 
     fmodEventEN:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: -1894158498
+        Data2: 1215781344
+        Data3: 1250850488
+        Data4: -2130602031
+      Path: event:/Dialogue/EN/Mother/Selkie recording-01
     fmodEventALT:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: -1894158498
+        Data2: 1215781344
+        Data3: 1250850488
+        Data4: -2130602031
+      Path: event:/Dialogue/EN/Mother/Selkie recording-01
   - lineID: line:0087e24
     description: 
     fmodEventEN:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 2079540144
+        Data2: 1187230725
+        Data3: 341292953
+        Data4: -1645077246
+      Path: event:/Dialogue/EN/Baker/Dennis recording-09
     fmodEventALT:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 2079540144
+        Data2: 1187230725
+        Data3: 341292953
+        Data4: -1645077246
+      Path: event:/Dialogue/EN/Baker/Dennis recording-09
   - lineID: line:0399a4b
     description: 
     fmodEventEN:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: -404840835
+        Data2: 1074069639
+        Data3: 1702071486
+        Data4: -1197141094
+      Path: event:/Dialogue/EN/Witch/Eevee recording-08
     fmodEventALT:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: -404840835
+        Data2: 1074069639
+        Data3: 1702071486
+        Data4: -1197141094
+      Path: event:/Dialogue/EN/Witch/Eevee recording-08
   - lineID: line:018a23e
     description: 
     fmodEventEN:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1849248565
+        Data2: 1082442948
+        Data3: -672262473
+        Data4: -482219079
+      Path: event:/Dialogue/EN/Baker/Dennis recording-10
     fmodEventALT:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1849248565
+        Data2: 1082442948
+        Data3: -672262473
+        Data4: -482219079
+      Path: event:/Dialogue/EN/Baker/Dennis recording-10
   - lineID: line:02d8cf0
     description: 
     fmodEventEN:
@@ -2144,18 +2144,18 @@ MonoBehaviour:
     description: 
     fmodEventEN:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 2077360139
+        Data2: 1126377761
+        Data3: 1768620219
+        Data4: -474962072
+      Path: event:/Dialogue/EN/Mother/Selkie recording-02
     fmodEventALT:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 2077360139
+        Data2: 1126377761
+        Data3: 1768620219
+        Data4: -474962072
+      Path: event:/Dialogue/EN/Mother/Selkie recording-02
   - lineID: line:05fc78b
     description: 
     fmodEventEN:
@@ -2192,18 +2192,18 @@ MonoBehaviour:
     description: 
     fmodEventEN:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1667542798
+        Data2: 1204657268
+        Data3: 2060810680
+        Data4: -1464435388
+      Path: event:/Dialogue/EN/Mother/Selkie recording-03
     fmodEventALT:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1667542798
+        Data2: 1204657268
+        Data3: 2060810680
+        Data4: -1464435388
+      Path: event:/Dialogue/EN/Mother/Selkie recording-03
   - lineID: line:0126eb8
     description: 
     fmodEventEN:
@@ -2224,18 +2224,18 @@ MonoBehaviour:
     description: 
     fmodEventEN:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: -1393504551
+        Data2: 1095286688
+        Data3: -2134188617
+        Data4: 726219745
+      Path: event:/Dialogue/EN/Mother/Selkie recording-04
     fmodEventALT:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: -1393504551
+        Data2: 1095286688
+        Data3: -2134188617
+        Data4: 726219745
+      Path: event:/Dialogue/EN/Mother/Selkie recording-04
   - lineID: line:0ff6115
     description: 
     fmodEventEN:
@@ -2272,18 +2272,18 @@ MonoBehaviour:
     description: 
     fmodEventEN:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 713679803
+        Data2: 1335990497
+        Data3: 69816710
+        Data4: -1301945950
+      Path: event:/Dialogue/EN/Mother/Selkie recording-05
     fmodEventALT:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 713679803
+        Data2: 1335990497
+        Data3: 69816710
+        Data4: -1301945950
+      Path: event:/Dialogue/EN/Mother/Selkie recording-05
   - lineID: line:0e26352
     description: 
     fmodEventEN:
@@ -2304,18 +2304,18 @@ MonoBehaviour:
     description: 
     fmodEventEN:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1987462503
+        Data2: 1269131097
+        Data3: -386689632
+        Data4: -1283731571
+      Path: event:/Dialogue/EN/Baker/Dennis recording-11
     fmodEventALT:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1987462503
+        Data2: 1269131097
+        Data3: -386689632
+        Data4: -1283731571
+      Path: event:/Dialogue/EN/Baker/Dennis recording-11
   - lineID: line:01b361c
     description: 
     fmodEventEN:
@@ -2336,18 +2336,18 @@ MonoBehaviour:
     description: 
     fmodEventEN:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1536507683
+        Data2: 1114908258
+        Data3: 725491887
+        Data4: -363747398
+      Path: event:/Dialogue/EN/Baker/Dennis recording-12
     fmodEventALT:
       Guid:
-        Data1: 0
-        Data2: 0
-        Data3: 0
-        Data4: 0
-      Path: 
+        Data1: 1536507683
+        Data2: 1114908258
+        Data3: 725491887
+        Data4: -363747398
+      Path: event:/Dialogue/EN/Baker/Dennis recording-12
   - lineID: line:00f2d78
     description: 
     fmodEventEN:
@@ -11154,7 +11154,7 @@ PrefabInstance:
     - target: {fileID: 8309902628685535410, guid: 52571f68872914e24837210513edea1d,
         type: 3}
       propertyPath: startNode
-      value: Beginning
+      value: RegularStreet
       objectReference: {fileID: 0}
     - target: {fileID: 8309902628685535410, guid: 52571f68872914e24837210513edea1d,
         type: 3}
