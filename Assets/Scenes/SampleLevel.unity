@@ -1948,7 +1948,7 @@ MonoBehaviour:
         Data3: 790038960
         Data4: 853165372
       Path: event:/Dialogue/ALT/NL_NPC_line0c6804e
-  - lineID: line:02f2c0e
+  - lineID: line:05f1e20
     description: 
     fmodEventEN:
       Guid:
@@ -1964,7 +1964,7 @@ MonoBehaviour:
         Data3: 928113054
         Data4: -568034122
       Path: event:/Dialogue/ALT/NL Witch/Eevee recording
-  - lineID: line:069a901
+  - lineID: line:06e55a8
     description: 
     fmodEventEN:
       Guid:
@@ -1980,7 +1980,7 @@ MonoBehaviour:
         Data3: -1713913974
         Data4: 1191259193
       Path: event:/Dialogue/ALT/NL Witch/Eevee recording-01
-  - lineID: line:08c413f
+  - lineID: line:0f1e33d
     description: 
     fmodEventEN:
       Guid:
@@ -1996,7 +1996,7 @@ MonoBehaviour:
         Data3: 418321328
         Data4: -663280564
       Path: event:/Dialogue/ALT/NL Witch/Eevee recording-02
-  - lineID: line:004bbae
+  - lineID: line:0846b47
     description: 
     fmodEventEN:
       Guid:
@@ -2012,122 +2012,10 @@ MonoBehaviour:
         Data3: 336477089
         Data4: -805091378
       Path: event:/Dialogue/ALT/NL Witch/Eevee recording-03
-  - lineID: line:0403adc
+  - lineID: line:0d3680c
     description: 
     fmodEventEN:
       Guid:
-        Data1: -1091402125
-        Data2: 1143023206
-        Data3: 1105580175
-        Data4: 1572646051
-      Path: event:/Dialogue/EN/Baker/Dennis recording-07
-    fmodEventALT:
-      Guid:
-        Data1: -1091402125
-        Data2: 1143023206
-        Data3: 1105580175
-        Data4: 1572646051
-      Path: event:/Dialogue/EN/Baker/Dennis recording-07
-  - lineID: line:0c1b9b7
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: 250589610
-        Data2: 1113536126
-        Data3: 1859850140
-        Data4: -1983427598
-      Path: event:/Dialogue/EN/Mother/Selkie recording
-    fmodEventALT:
-      Guid:
-        Data1: 250589610
-        Data2: 1113536126
-        Data3: 1859850140
-        Data4: -1983427598
-      Path: event:/Dialogue/EN/Mother/Selkie recording
-  - lineID: line:0931e63
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: -2073879735
-        Data2: 1156477931
-        Data3: -863498580
-        Data4: 1035039562
-      Path: event:/Dialogue/EN/Baker/Dennis recording-08
-    fmodEventALT:
-      Guid:
-        Data1: -2073879735
-        Data2: 1156477931
-        Data3: -863498580
-        Data4: 1035039562
-      Path: event:/Dialogue/EN/Baker/Dennis recording-08
-  - lineID: line:08dbf4a
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: -1894158498
-        Data2: 1215781344
-        Data3: 1250850488
-        Data4: -2130602031
-      Path: event:/Dialogue/EN/Mother/Selkie recording-01
-    fmodEventALT:
-      Guid:
-        Data1: -1894158498
-        Data2: 1215781344
-        Data3: 1250850488
-        Data4: -2130602031
-      Path: event:/Dialogue/EN/Mother/Selkie recording-01
-  - lineID: line:0cd0985
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: 2079540144
-        Data2: 1187230725
-        Data3: 341292953
-        Data4: -1645077246
-      Path: event:/Dialogue/EN/Baker/Dennis recording-09
-    fmodEventALT:
-      Guid:
-        Data1: 2079540144
-        Data2: 1187230725
-        Data3: 341292953
-        Data4: -1645077246
-      Path: event:/Dialogue/EN/Baker/Dennis recording-09
-  - lineID: line:0318a5a
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: -404840835
-        Data2: 1074069639
-        Data3: 1702071486
-        Data4: -1197141094
-      Path: event:/Dialogue/EN/Witch/Eevee recording-08
-    fmodEventALT:
-      Guid:
-        Data1: -404840835
-        Data2: 1074069639
-        Data3: 1702071486
-        Data4: -1197141094
-      Path: event:/Dialogue/EN/Witch/Eevee recording-08
-  - lineID: line:0201b91
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: 1849248565
-        Data2: 1082442948
-        Data3: -672262473
-        Data4: -482219079
-      Path: event:/Dialogue/EN/Baker/Dennis recording-10
-    fmodEventALT:
-      Guid:
-        Data1: 1849248565
-        Data2: 1082442948
-        Data3: -672262473
-        Data4: -482219079
-      Path: event:/Dialogue/EN/Baker/Dennis recording-10
-  - lineID: line:0f4a05d
-    description: 
-    fmodEventEN:
-      Guid:
         Data1: 0
         Data2: 0
         Data3: 0
@@ -2140,23 +2028,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:056d6f7
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: 2077360139
-        Data2: 1126377761
-        Data3: 1768620219
-        Data4: -474962072
-      Path: event:/Dialogue/EN/Mother/Selkie recording-02
-    fmodEventALT:
-      Guid:
-        Data1: 2077360139
-        Data2: 1126377761
-        Data3: 1768620219
-        Data4: -474962072
-      Path: event:/Dialogue/EN/Mother/Selkie recording-02
-  - lineID: line:02e93db
+  - lineID: line:0bbc278
     description: 
     fmodEventEN:
       Guid:
@@ -2172,7 +2044,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:07f412a
+  - lineID: line:0c589e9
     description: 
     fmodEventEN:
       Guid:
@@ -2188,23 +2060,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:048d43a
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: 1667542798
-        Data2: 1204657268
-        Data3: 2060810680
-        Data4: -1464435388
-      Path: event:/Dialogue/EN/Mother/Selkie recording-03
-    fmodEventALT:
-      Guid:
-        Data1: 1667542798
-        Data2: 1204657268
-        Data3: 2060810680
-        Data4: -1464435388
-      Path: event:/Dialogue/EN/Mother/Selkie recording-03
-  - lineID: line:0c76af8
+  - lineID: line:097c719
     description: 
     fmodEventEN:
       Guid:
@@ -2220,23 +2076,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0c97511
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: -1393504551
-        Data2: 1095286688
-        Data3: -2134188617
-        Data4: 726219745
-      Path: event:/Dialogue/EN/Mother/Selkie recording-04
-    fmodEventALT:
-      Guid:
-        Data1: -1393504551
-        Data2: 1095286688
-        Data3: -2134188617
-        Data4: 726219745
-      Path: event:/Dialogue/EN/Mother/Selkie recording-04
-  - lineID: line:0a738a9
+  - lineID: line:0087e24
     description: 
     fmodEventEN:
       Guid:
@@ -2252,7 +2092,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0bbe37d
+  - lineID: line:0399a4b
     description: 
     fmodEventEN:
       Guid:
@@ -2268,23 +2108,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0380354
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: 713679803
-        Data2: 1335990497
-        Data3: 69816710
-        Data4: -1301945950
-      Path: event:/Dialogue/EN/Mother/Selkie recording-05
-    fmodEventALT:
-      Guid:
-        Data1: 713679803
-        Data2: 1335990497
-        Data3: 69816710
-        Data4: -1301945950
-      Path: event:/Dialogue/EN/Mother/Selkie recording-05
-  - lineID: line:01dabb3
+  - lineID: line:018a23e
     description: 
     fmodEventEN:
       Guid:
@@ -2300,23 +2124,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0d2d7be
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: 1987462503
-        Data2: 1269131097
-        Data3: -386689632
-        Data4: -1283731571
-      Path: event:/Dialogue/EN/Baker/Dennis recording-11
-    fmodEventALT:
-      Guid:
-        Data1: 1987462503
-        Data2: 1269131097
-        Data3: -386689632
-        Data4: -1283731571
-      Path: event:/Dialogue/EN/Baker/Dennis recording-11
-  - lineID: line:0ed923f
+  - lineID: line:02d8cf0
     description: 
     fmodEventEN:
       Guid:
@@ -2332,103 +2140,71 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0b63e88
+  - lineID: line:0decc37
     description: 
     fmodEventEN:
       Guid:
-        Data1: 1536507683
-        Data2: 1114908258
-        Data3: 725491887
-        Data4: -363747398
-      Path: event:/Dialogue/EN/Baker/Dennis recording-12
-    fmodEventALT:
-      Guid:
-        Data1: 1536507683
-        Data2: 1114908258
-        Data3: 725491887
-        Data4: -363747398
-      Path: event:/Dialogue/EN/Baker/Dennis recording-12
-  - lineID: line:0254142
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: -842626458
-        Data2: 1164287227
-        Data3: 597290888
-        Data4: 109497134
-      Path: event:/Dialogue/EN/Mother/Selkie recording-06
-    fmodEventALT:
-      Guid:
-        Data1: -842626458
-        Data2: 1164287227
-        Data3: 597290888
-        Data4: 109497134
-      Path: event:/Dialogue/EN/Mother/Selkie recording-06
-  - lineID: line:0b5317a
-    description: 
-    fmodEventEN:
-      Guid:
-        Data1: -472135162
-        Data2: 1151038821
-        Data3: -904517217
-        Data4: 1623207928
-      Path: event:/Dialogue/EN/Son/Frosty recording
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
     fmodEventALT:
       Guid:
-        Data1: -472135162
-        Data2: 1151038821
-        Data3: -904517217
-        Data4: 1623207928
-      Path: event:/Dialogue/EN/Son/Frosty recording
-  - lineID: line:0247a6f
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
+  - lineID: line:05fc78b
     description: 
     fmodEventEN:
       Guid:
-        Data1: 627233377
-        Data2: 1098094786
-        Data3: -819846509
-        Data4: -1952557260
-      Path: event:/Dialogue/EN/Son/Frosty recording-01
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
     fmodEventALT:
       Guid:
-        Data1: 627233377
-        Data2: 1098094786
-        Data3: -819846509
-        Data4: -1952557260
-      Path: event:/Dialogue/EN/Son/Frosty recording-01
-  - lineID: line:0a4a4e7
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
+  - lineID: line:072d637
     description: 
     fmodEventEN:
       Guid:
-        Data1: 1958527495
-        Data2: 1263556954
-        Data3: 958034052
-        Data4: -178904402
-      Path: event:/Dialogue/EN/Witch/Eevee recording-10
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
     fmodEventALT:
       Guid:
-        Data1: 1958527495
-        Data2: 1263556954
-        Data3: 958034052
-        Data4: -178904402
-      Path: event:/Dialogue/EN/Witch/Eevee recording-10
-  - lineID: line:07adaa0
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
+  - lineID: line:0af5b34
     description: 
     fmodEventEN:
       Guid:
-        Data1: -2110923597
-        Data2: 1319414220
-        Data3: -916879480
-        Data4: 474338254
-      Path: event:/Dialogue/EN/Witch/Eevee recording-10 - 2
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
     fmodEventALT:
       Guid:
-        Data1: -2110923597
-        Data2: 1319414220
-        Data3: -916879480
-        Data4: 474338254
-      Path: event:/Dialogue/EN/Witch/Eevee recording-10 - 2
-  - lineID: line:0d6063f
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
+  - lineID: line:0126eb8
     description: 
     fmodEventEN:
       Guid:
@@ -2444,135 +2220,135 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0c22e8f
+  - lineID: line:07671d4
     description: 
     fmodEventEN:
       Guid:
-        Data1: 2077478137
-        Data2: 1146114077
-        Data3: -22188153
-        Data4: -1694666027
-      Path: event:/Dialogue/EN/Mother/Selkie recording-09
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
     fmodEventALT:
       Guid:
-        Data1: 2077478137
-        Data2: 1146114077
-        Data3: -22188153
-        Data4: -1694666027
-      Path: event:/Dialogue/EN/Mother/Selkie recording-09
-  - lineID: line:0e95d8f
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
+  - lineID: line:0ff6115
     description: 
     fmodEventEN:
       Guid:
-        Data1: 1874700804
-        Data2: 1152153743
-        Data3: 1615154820
-        Data4: 1886841428
-      Path: event:/Dialogue/EN/Mother/Selkie recording-09-2
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
     fmodEventALT:
       Guid:
-        Data1: 1874700804
-        Data2: 1152153743
-        Data3: 1615154820
-        Data4: 1886841428
-      Path: event:/Dialogue/EN/Mother/Selkie recording-09-2
-  - lineID: line:07a7489
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
+  - lineID: line:03f7b8f
     description: 
     fmodEventEN:
       Guid:
-        Data1: -652610337
-        Data2: 1130886098
-        Data3: -583541342
-        Data4: -769892864
-      Path: event:/Dialogue/EN/Son/Frosty recording-02
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
     fmodEventALT:
       Guid:
-        Data1: -652610337
-        Data2: 1130886098
-        Data3: -583541342
-        Data4: -769892864
-      Path: event:/Dialogue/EN/Son/Frosty recording-02
-  - lineID: line:04202cb
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
+  - lineID: line:0db8321
     description: 
     fmodEventEN:
       Guid:
-        Data1: -829993332
-        Data2: 1289150251
-        Data3: -1577886840
-        Data4: 717490269
-      Path: event:/Dialogue/EN/Mother/Selkie recording-10
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
     fmodEventALT:
       Guid:
-        Data1: -829993332
-        Data2: 1289150251
-        Data3: -1577886840
-        Data4: 717490269
-      Path: event:/Dialogue/EN/Mother/Selkie recording-10
-  - lineID: line:0fe0d67
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
+  - lineID: line:0e26352
     description: 
     fmodEventEN:
       Guid:
-        Data1: 1542713306
-        Data2: 1128647354
-        Data3: -277749574
-        Data4: 829264139
-      Path: event:/Dialogue/EN/Son/Frosty recording-03
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
     fmodEventALT:
       Guid:
-        Data1: 1542713306
-        Data2: 1128647354
-        Data3: -277749574
-        Data4: 829264139
-      Path: event:/Dialogue/EN/Son/Frosty recording-03
-  - lineID: line:0bd3231
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
+  - lineID: line:047496c
     description: 
     fmodEventEN:
       Guid:
-        Data1: 1340958598
-        Data2: 1216817944
-        Data3: -535192440
-        Data4: -621674111
-      Path: event:/Dialogue/EN/Son/Frosty recording-04
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
     fmodEventALT:
       Guid:
-        Data1: 1340958598
-        Data2: 1216817944
-        Data3: -535192440
-        Data4: -621674111
-      Path: event:/Dialogue/EN/Son/Frosty recording-04
-  - lineID: line:0168d7f
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
+  - lineID: line:01b361c
     description: 
     fmodEventEN:
       Guid:
-        Data1: 1884885364
-        Data2: 1220423096
-        Data3: 179562170
-        Data4: 157709038
-      Path: event:/Dialogue/EN/Mother/Selkie recording-11
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
     fmodEventALT:
       Guid:
-        Data1: 1884885364
-        Data2: 1220423096
-        Data3: 179562170
-        Data4: 157709038
-      Path: event:/Dialogue/EN/Mother/Selkie recording-11
-  - lineID: line:0d11202
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
+  - lineID: line:09c8e16
     description: 
     fmodEventEN:
       Guid:
-        Data1: 1941098428
-        Data2: 1263345864
-        Data3: -1252718942
-        Data4: -1457730373
-      Path: event:/Dialogue/EN/Mother/Selkie recording-12
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
     fmodEventALT:
       Guid:
-        Data1: 1941098428
-        Data2: 1263345864
-        Data3: -1252718942
-        Data4: -1457730373
-      Path: event:/Dialogue/EN/Mother/Selkie recording-12
-  - lineID: line:08b054d
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
+  - lineID: line:00f2d78
     description: 
     fmodEventEN:
       Guid:
@@ -2588,55 +2364,55 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:05d5c51
+  - lineID: line:0eb22a2
     description: 
     fmodEventEN:
       Guid:
-        Data1: 876480697
-        Data2: 1293295827
-        Data3: 249919666
-        Data4: 483952148
-      Path: event:/Dialogue/EN/Mother/Selkie recording-13
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
     fmodEventALT:
       Guid:
-        Data1: 1941098428
-        Data2: 1263345864
-        Data3: -1252718942
-        Data4: -1457730373
-      Path: event:/Dialogue/EN/Mother/Selkie recording-12
-  - lineID: line:015004f
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
+  - lineID: line:0a83248
     description: 
     fmodEventEN:
       Guid:
-        Data1: 336038954
-        Data2: 1294197199
-        Data3: 692300986
-        Data4: 187734258
-      Path: event:/Dialogue/EN/Son/Frosty recording-05
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
     fmodEventALT:
       Guid:
-        Data1: 336038954
-        Data2: 1294197199
-        Data3: 692300986
-        Data4: 187734258
-      Path: event:/Dialogue/EN/Son/Frosty recording-05
-  - lineID: line:0211f50
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
+  - lineID: line:09f007c
     description: 
     fmodEventEN:
       Guid:
-        Data1: 1122368845
-        Data2: 1167526332
-        Data3: -522491993
-        Data4: -717403153
-      Path: event:/Dialogue/EN/Mother/Selkie recording-14
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
     fmodEventALT:
       Guid:
-        Data1: 1122368845
-        Data2: 1167526332
-        Data3: -522491993
-        Data4: -717403153
-      Path: event:/Dialogue/EN/Mother/Selkie recording-14
-  - lineID: line:0561f0c
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
+  - lineID: line:08753de
     description: 
     fmodEventEN:
       Guid:
@@ -2652,23 +2428,23 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0f918b1
+  - lineID: line:0bce6a6
     description: 
     fmodEventEN:
       Guid:
-        Data1: -1878325411
-        Data2: 1330042972
-        Data3: 1097459119
-        Data4: -433136169
-      Path: event:/Dialogue/EN/Mother/Selkie recording-15
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
     fmodEventALT:
       Guid:
-        Data1: -1878325411
-        Data2: 1330042972
-        Data3: 1097459119
-        Data4: -433136169
-      Path: event:/Dialogue/EN/Mother/Selkie recording-15
-  - lineID: line:0c4f0d8
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
+  - lineID: line:09a09b8
     description: 
     fmodEventEN:
       Guid:
@@ -2684,55 +2460,55 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:06a9ef0
+  - lineID: line:0dae066
     description: 
     fmodEventEN:
       Guid:
-        Data1: -1380122401
-        Data2: 1201565861
-        Data3: 202191265
-        Data4: -60213287
-      Path: event:/Dialogue/EN/Mother/Selkie recording-07
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
     fmodEventALT:
       Guid:
-        Data1: -1380122401
-        Data2: 1201565861
-        Data3: 202191265
-        Data4: -60213287
-      Path: event:/Dialogue/EN/Mother/Selkie recording-07
-  - lineID: line:0e3de27
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
+  - lineID: line:0cb1e50
     description: 
     fmodEventEN:
       Guid:
-        Data1: 1776328186
-        Data2: 1325351020
-        Data3: 1875807912
-        Data4: -562460422
-      Path: event:/Dialogue/EN/Mother/Selkie recording-07-2
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
     fmodEventALT:
       Guid:
-        Data1: 1776328186
-        Data2: 1325351020
-        Data3: 1875807912
-        Data4: -562460422
-      Path: event:/Dialogue/EN/Mother/Selkie recording-07-2
-  - lineID: line:0bc1ec7
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
+  - lineID: line:04e1b45
     description: 
     fmodEventEN:
       Guid:
-        Data1: 969439431
-        Data2: 1285270394
-        Data3: 1310360232
-        Data4: 210049876
-      Path: event:/Dialogue/EN/Mother/Selkie recording-08
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
     fmodEventALT:
       Guid:
-        Data1: 969439431
-        Data2: 1285270394
-        Data3: 1310360232
-        Data4: 210049876
-      Path: event:/Dialogue/EN/Mother/Selkie recording-08
-  - lineID: line:04c2dfb
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
+  - lineID: line:01cebfe
     description: 
     fmodEventEN:
       Guid:
@@ -2748,7 +2524,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0b685ff
+  - lineID: line:0444994
     description: 
     fmodEventEN:
       Guid:
@@ -2764,7 +2540,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0de908b
+  - lineID: line:0df0530
     description: 
     fmodEventEN:
       Guid:
@@ -2780,7 +2556,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0e21d55
+  - lineID: line:0b437b3
     description: 
     fmodEventEN:
       Guid:
@@ -2796,39 +2572,39 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0b1ee21
+  - lineID: line:06da727
     description: 
     fmodEventEN:
       Guid:
-        Data1: 455211534
-        Data2: 1296285879
-        Data3: 1680218042
-        Data4: 169452214
-      Path: event:/Dialogue/EN/Mother/Selkie recording-16
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
     fmodEventALT:
       Guid:
-        Data1: 455211534
-        Data2: 1296285879
-        Data3: 1680218042
-        Data4: 169452214
-      Path: event:/Dialogue/EN/Mother/Selkie recording-16
-  - lineID: line:0a82185
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
+  - lineID: line:02dd5da
     description: 
     fmodEventEN:
       Guid:
-        Data1: 2004021057
-        Data2: 1321166843
-        Data3: 1735233690
-        Data4: -1275296518
-      Path: event:/Dialogue/EN/Witch/Eevee recording-11
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
     fmodEventALT:
       Guid:
-        Data1: 2004021057
-        Data2: 1321166843
-        Data3: 1735233690
-        Data4: -1275296518
-      Path: event:/Dialogue/EN/Witch/Eevee recording-11
-  - lineID: line:011805b
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
+  - lineID: line:0f8800f
     description: 
     fmodEventEN:
       Guid:
@@ -2844,7 +2620,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:096d143
+  - lineID: line:0bc0d46
     description: 
     fmodEventEN:
       Guid:
@@ -2860,7 +2636,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:09eaeff
+  - lineID: line:027b6af
     description: 
     fmodEventEN:
       Guid:
@@ -2876,7 +2652,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:04e7d25
+  - lineID: line:06f9c61
     description: 
     fmodEventEN:
       Guid:
@@ -2892,23 +2668,23 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:01af99a
+  - lineID: line:0a1afd1
     description: 
     fmodEventEN:
       Guid:
-        Data1: 216897292
-        Data2: 1157564745
-        Data3: 79497115
-        Data4: -899386506
-      Path: event:/Dialogue/EN/Son/Frosty recording-06
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
     fmodEventALT:
       Guid:
-        Data1: 216897292
-        Data2: 1157564745
-        Data3: 79497115
-        Data4: -899386506
-      Path: event:/Dialogue/EN/Son/Frosty recording-06
-  - lineID: line:00c883c
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
+  - lineID: line:00fdf57
     description: 
     fmodEventEN:
       Guid:
@@ -2924,7 +2700,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:06ea3f3
+  - lineID: line:09282f2
     description: 
     fmodEventEN:
       Guid:
@@ -2940,7 +2716,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0e91a62
+  - lineID: line:0fd6ed5
     description: 
     fmodEventEN:
       Guid:
@@ -2956,167 +2732,167 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0522ee5
+  - lineID: line:0b0001c
     description: 
     fmodEventEN:
       Guid:
-        Data1: -176883917
-        Data2: 1156319228
-        Data3: -1693720386
-        Data4: 895387061
-      Path: event:/Dialogue/EN/Mother/Selkie recording-19
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
     fmodEventALT:
       Guid:
-        Data1: -176883917
-        Data2: 1156319228
-        Data3: -1693720386
-        Data4: 895387061
-      Path: event:/Dialogue/EN/Mother/Selkie recording-19
-  - lineID: line:05b841a
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
+  - lineID: line:06fe26f
     description: 
     fmodEventEN:
       Guid:
-        Data1: 1107927722
-        Data2: 1192408545
-        Data3: 594307984
-        Data4: -1418577082
-      Path: event:/Dialogue/EN/Mother/Selkie recording-20
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
     fmodEventALT:
       Guid:
-        Data1: 1107927722
-        Data2: 1192408545
-        Data3: 594307984
-        Data4: -1418577082
-      Path: event:/Dialogue/EN/Mother/Selkie recording-20
-  - lineID: line:05ded02
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
+  - lineID: line:020fa43
     description: 
     fmodEventEN:
       Guid:
-        Data1: 2004021057
-        Data2: 1321166843
-        Data3: 1735233690
-        Data4: -1275296518
-      Path: event:/Dialogue/EN/Witch/Eevee recording-11
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
     fmodEventALT:
       Guid:
-        Data1: 2004021057
-        Data2: 1321166843
-        Data3: 1735233690
-        Data4: -1275296518
-      Path: event:/Dialogue/EN/Witch/Eevee recording-11
-  - lineID: line:00b42cd
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
+  - lineID: line:04b2971
     description: 
     fmodEventEN:
       Guid:
-        Data1: 1384347541
-        Data2: 1178815353
-        Data3: 1631564719
-        Data4: -1139736025
-      Path: event:/Dialogue/EN/Witch/Eevee recording-12
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
     fmodEventALT:
       Guid:
-        Data1: 1384347541
-        Data2: 1178815353
-        Data3: 1631564719
-        Data4: -1139736025
-      Path: event:/Dialogue/EN/Witch/Eevee recording-12
-  - lineID: line:0dc626e
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
+  - lineID: line:0d857e1
     description: 
     fmodEventEN:
       Guid:
-        Data1: -1439721310
-        Data2: 1133866201
-        Data3: 509860287
-        Data4: 1402507632
-      Path: event:/Dialogue/EN/Witch/Eevee recording-13
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
     fmodEventALT:
       Guid:
-        Data1: -1439721310
-        Data2: 1133866201
-        Data3: 509860287
-        Data4: 1402507632
-      Path: event:/Dialogue/EN/Witch/Eevee recording-13
-  - lineID: line:0ec910f
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
+  - lineID: line:0d56aac
     description: 
     fmodEventEN:
       Guid:
-        Data1: -1204770946
-        Data2: 1184860096
-        Data3: -289488209
-        Data4: -998554754
-      Path: event:/Dialogue/EN/Witch/Eevee recording-14
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
     fmodEventALT:
       Guid:
-        Data1: -1204770946
-        Data2: 1184860096
-        Data3: -289488209
-        Data4: -998554754
-      Path: event:/Dialogue/EN/Witch/Eevee recording-14
-  - lineID: line:08133c2
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
+  - lineID: line:07cbacd
     description: 
     fmodEventEN:
       Guid:
-        Data1: 2018471471
-        Data2: 1336962093
-        Data3: -918769274
-        Data4: -1556074891
-      Path: event:/Dialogue/EN/Witch/Eevee recording-15
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
     fmodEventALT:
       Guid:
-        Data1: 2018471471
-        Data2: 1336962093
-        Data3: -918769274
-        Data4: -1556074891
-      Path: event:/Dialogue/EN/Witch/Eevee recording-15
-  - lineID: line:08ba209
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
+  - lineID: line:0270c3c
     description: 
     fmodEventEN:
       Guid:
-        Data1: -1207511257
-        Data2: 1143656460
-        Data3: 394954149
-        Data4: 1921071457
-      Path: event:/Dialogue/EN/Witch/Eevee recording-16
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
     fmodEventALT:
       Guid:
-        Data1: -1207511257
-        Data2: 1143656460
-        Data3: 394954149
-        Data4: 1921071457
-      Path: event:/Dialogue/EN/Witch/Eevee recording-16
-  - lineID: line:0b0dd79
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
+  - lineID: line:0d6ad20
     description: 
     fmodEventEN:
       Guid:
-        Data1: 1721672202
-        Data2: 1133239274
-        Data3: 728987525
-        Data4: -647815193
-      Path: event:/Dialogue/EN/Witch/Eevee recording-17
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
     fmodEventALT:
       Guid:
-        Data1: 1721672202
-        Data2: 1133239274
-        Data3: 728987525
-        Data4: -647815193
-      Path: event:/Dialogue/EN/Witch/Eevee recording-17
-  - lineID: line:0f8630e
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
+  - lineID: line:0e7dd30
     description: 
     fmodEventEN:
       Guid:
-        Data1: -1045403715
-        Data2: 1261883395
-        Data3: 1431964859
-        Data4: -202062216
-      Path: event:/Dialogue/EN/Witch/Eevee recording-18
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
     fmodEventALT:
       Guid:
-        Data1: -1045403715
-        Data2: 1261883395
-        Data3: 1431964859
-        Data4: -202062216
-      Path: event:/Dialogue/EN/Witch/Eevee recording-18
-  - lineID: line:01c335c
+        Data1: 0
+        Data2: 0
+        Data3: 0
+        Data4: 0
+      Path: 
+  - lineID: line:0c43a94
     description: 
     fmodEventEN:
       Guid:
@@ -3132,7 +2908,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:05e872c
+  - lineID: line:0d09fd5
     description: 
     fmodEventEN:
       Guid:
@@ -3148,7 +2924,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0230305
+  - lineID: line:01d57a1
     description: 
     fmodEventEN:
       Guid:
@@ -3164,7 +2940,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0fc8c63
+  - lineID: line:0f8c69d
     description: 
     fmodEventEN:
       Guid:
@@ -3180,7 +2956,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:07cb8b2
+  - lineID: line:0812a46
     description: 
     fmodEventEN:
       Guid:
@@ -3196,7 +2972,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0f4798e
+  - lineID: line:07cb3a5
     description: 
     fmodEventEN:
       Guid:
@@ -3212,7 +2988,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0f14db0
+  - lineID: line:07e9886
     description: 
     fmodEventEN:
       Guid:
@@ -3228,7 +3004,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0baa251
+  - lineID: line:052ac8a
     description: 
     fmodEventEN:
       Guid:
@@ -3244,7 +3020,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0d15352
+  - lineID: line:013ade7
     description: 
     fmodEventEN:
       Guid:
@@ -3260,7 +3036,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0685ba8
+  - lineID: line:011ac45
     description: 
     fmodEventEN:
       Guid:
@@ -3276,7 +3052,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:05876ec
+  - lineID: line:055ea39
     description: 
     fmodEventEN:
       Guid:
@@ -3292,7 +3068,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0c454a0
+  - lineID: line:06b119f
     description: 
     fmodEventEN:
       Guid:
@@ -3308,7 +3084,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0f775b4
+  - lineID: line:0336988
     description: 
     fmodEventEN:
       Guid:
@@ -3324,7 +3100,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0e0113a
+  - lineID: line:0c23a21
     description: 
     fmodEventEN:
       Guid:
@@ -3340,7 +3116,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0376f6d
+  - lineID: line:091b9ee
     description: 
     fmodEventEN:
       Guid:
@@ -3356,7 +3132,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0d25303
+  - lineID: line:011a5b4
     description: 
     fmodEventEN:
       Guid:
@@ -3372,7 +3148,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0308270
+  - lineID: line:0e30312
     description: 
     fmodEventEN:
       Guid:
@@ -3388,7 +3164,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0673c24
+  - lineID: line:026560c
     description: 
     fmodEventEN:
       Guid:
@@ -3404,7 +3180,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:01e8332
+  - lineID: line:01f92bd
     description: 
     fmodEventEN:
       Guid:
@@ -3420,7 +3196,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0c8105a
+  - lineID: line:0ab99bb
     description: 
     fmodEventEN:
       Guid:
@@ -3436,7 +3212,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0b61868
+  - lineID: line:0fade45
     description: 
     fmodEventEN:
       Guid:
@@ -3452,7 +3228,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:07e7d10
+  - lineID: line:0ff4e21
     description: 
     fmodEventEN:
       Guid:
@@ -3468,7 +3244,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0eeb85d
+  - lineID: line:0589fb0
     description: 
     fmodEventEN:
       Guid:
@@ -3484,7 +3260,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:02be5ec
+  - lineID: line:0aac373
     description: 
     fmodEventEN:
       Guid:
@@ -3500,7 +3276,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0cef06b
+  - lineID: line:0ef005f
     description: 
     fmodEventEN:
       Guid:
@@ -3516,7 +3292,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0fa9af1
+  - lineID: line:017716f
     description: 
     fmodEventEN:
       Guid:
@@ -3532,7 +3308,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:09b2baf
+  - lineID: line:09bec62
     description: 
     fmodEventEN:
       Guid:
@@ -3548,7 +3324,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0b9ae0a
+  - lineID: line:04ee047
     description: 
     fmodEventEN:
       Guid:
@@ -3564,7 +3340,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:08e3c82
+  - lineID: line:0028885
     description: 
     fmodEventEN:
       Guid:
@@ -3580,7 +3356,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0f74d18
+  - lineID: line:0f5b3a4
     description: 
     fmodEventEN:
       Guid:
@@ -3596,7 +3372,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:03aeb04
+  - lineID: line:0d16077
     description: 
     fmodEventEN:
       Guid:
@@ -3612,7 +3388,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0c08bf2
+  - lineID: line:0f5dfc2
     description: 
     fmodEventEN:
       Guid:
@@ -3628,7 +3404,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:005a886
+  - lineID: line:06d9c74
     description: 
     fmodEventEN:
       Guid:
@@ -3644,7 +3420,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0e62d7d
+  - lineID: line:0f727ff
     description: 
     fmodEventEN:
       Guid:
@@ -3660,7 +3436,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0c5e9f8
+  - lineID: line:0effd1f
     description: 
     fmodEventEN:
       Guid:
@@ -3676,7 +3452,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:05366f5
+  - lineID: line:09d0751
     description: 
     fmodEventEN:
       Guid:
@@ -3692,7 +3468,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0851e80
+  - lineID: line:0107e39
     description: 
     fmodEventEN:
       Guid:
@@ -3708,7 +3484,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:014f3f7
+  - lineID: line:0ffb971
     description: 
     fmodEventEN:
       Guid:
@@ -3724,7 +3500,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:01a1890
+  - lineID: line:03ae300
     description: 
     fmodEventEN:
       Guid:
@@ -3740,7 +3516,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0aa3570
+  - lineID: line:0ab0309
     description: 
     fmodEventEN:
       Guid:
@@ -3756,7 +3532,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:05d2f75
+  - lineID: line:0f103db
     description: 
     fmodEventEN:
       Guid:
@@ -3772,7 +3548,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0605748
+  - lineID: line:04f0346
     description: 
     fmodEventEN:
       Guid:
@@ -3788,7 +3564,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:03b34ea
+  - lineID: line:0fc3170
     description: 
     fmodEventEN:
       Guid:
@@ -3804,7 +3580,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:006484b
+  - lineID: line:080d6ac
     description: 
     fmodEventEN:
       Guid:
@@ -3820,7 +3596,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:090a376
+  - lineID: line:0a7849c
     description: 
     fmodEventEN:
       Guid:
@@ -3836,7 +3612,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:08dda44
+  - lineID: line:044ee7c
     description: 
     fmodEventEN:
       Guid:
@@ -3852,7 +3628,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0640e66
+  - lineID: line:03c78e7
     description: 
     fmodEventEN:
       Guid:
@@ -3868,7 +3644,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:07ddbc7
+  - lineID: line:05ec022
     description: 
     fmodEventEN:
       Guid:
@@ -3884,7 +3660,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0d3d360
+  - lineID: line:0b96f83
     description: 
     fmodEventEN:
       Guid:
@@ -3900,7 +3676,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:00a0f6b
+  - lineID: line:0c6b22c
     description: 
     fmodEventEN:
       Guid:
@@ -3916,7 +3692,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0bc0e9f
+  - lineID: line:0f26799
     description: 
     fmodEventEN:
       Guid:
@@ -3932,7 +3708,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:019f79e
+  - lineID: line:05664c0
     description: 
     fmodEventEN:
       Guid:
@@ -3948,7 +3724,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:06d1ed7
+  - lineID: line:007797e
     description: 
     fmodEventEN:
       Guid:
@@ -3964,7 +3740,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0e8cd1e
+  - lineID: line:02b1364
     description: 
     fmodEventEN:
       Guid:
@@ -3980,7 +3756,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0424aa5
+  - lineID: line:0ecfeea
     description: 
     fmodEventEN:
       Guid:
@@ -3996,7 +3772,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:09db64b
+  - lineID: line:0c4ec73
     description: 
     fmodEventEN:
       Guid:
@@ -4012,7 +3788,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:06fcecf
+  - lineID: line:0780025
     description: 
     fmodEventEN:
       Guid:
@@ -4028,7 +3804,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0f71d18
+  - lineID: line:072942d
     description: 
     fmodEventEN:
       Guid:
@@ -4044,7 +3820,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:02d9bf8
+  - lineID: line:009c63d
     description: 
     fmodEventEN:
       Guid:
@@ -4060,7 +3836,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0821dc0
+  - lineID: line:069b8d6
     description: 
     fmodEventEN:
       Guid:
@@ -4076,7 +3852,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0594ddf
+  - lineID: line:0e0c742
     description: 
     fmodEventEN:
       Guid:
@@ -4092,7 +3868,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0379fa6
+  - lineID: line:02fb83f
     description: 
     fmodEventEN:
       Guid:
@@ -4108,7 +3884,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:02c65ce
+  - lineID: line:0502405
     description: 
     fmodEventEN:
       Guid:
@@ -4124,7 +3900,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0da063a
+  - lineID: line:01dfa43
     description: 
     fmodEventEN:
       Guid:
@@ -4140,7 +3916,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:02d70a3
+  - lineID: line:0404bcd
     description: 
     fmodEventEN:
       Guid:
@@ -4156,7 +3932,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:097eafa
+  - lineID: line:0600a76
     description: 
     fmodEventEN:
       Guid:
@@ -4172,7 +3948,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0beac1a
+  - lineID: line:0fd752b
     description: 
     fmodEventEN:
       Guid:
@@ -4188,7 +3964,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0114836
+  - lineID: line:03c4188
     description: 
     fmodEventEN:
       Guid:
@@ -4204,7 +3980,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:01a2741
+  - lineID: line:0d23d01
     description: 
     fmodEventEN:
       Guid:
@@ -4220,7 +3996,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0e40878
+  - lineID: line:0f4b29c
     description: 
     fmodEventEN:
       Guid:
@@ -4236,7 +4012,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:04d3482
+  - lineID: line:001277b
     description: 
     fmodEventEN:
       Guid:
@@ -4252,7 +4028,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:01b8e79
+  - lineID: line:0e349a0
     description: 
     fmodEventEN:
       Guid:
@@ -4268,7 +4044,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:04d2393
+  - lineID: line:0eb730c
     description: 
     fmodEventEN:
       Guid:
@@ -4284,7 +4060,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0744dc1
+  - lineID: line:0748fb3
     description: 
     fmodEventEN:
       Guid:
@@ -4300,7 +4076,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:06ae0e4
+  - lineID: line:0ba95df
     description: 
     fmodEventEN:
       Guid:
@@ -4316,7 +4092,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:055c11f
+  - lineID: line:0abdafe
     description: 
     fmodEventEN:
       Guid:
@@ -4332,7 +4108,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0434826
+  - lineID: line:0031cb0
     description: 
     fmodEventEN:
       Guid:
@@ -4348,7 +4124,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0e87011
+  - lineID: line:0d7c903
     description: 
     fmodEventEN:
       Guid:
@@ -4364,7 +4140,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:09b4276
+  - lineID: line:0033ed7
     description: 
     fmodEventEN:
       Guid:
@@ -4380,7 +4156,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0411627
+  - lineID: line:0aa11e2
     description: 
     fmodEventEN:
       Guid:
@@ -4396,7 +4172,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0968c8b
+  - lineID: line:0daf887
     description: 
     fmodEventEN:
       Guid:
@@ -4412,7 +4188,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:01d4fe7
+  - lineID: line:03d2c40
     description: 
     fmodEventEN:
       Guid:
@@ -4428,7 +4204,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0e5daaa
+  - lineID: line:09570c3
     description: 
     fmodEventEN:
       Guid:
@@ -4444,7 +4220,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0842d17
+  - lineID: line:03bd658
     description: 
     fmodEventEN:
       Guid:
@@ -4460,7 +4236,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:03b3e79
+  - lineID: line:0034c0a
     description: 
     fmodEventEN:
       Guid:
@@ -4476,7 +4252,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:020f366
+  - lineID: line:07afbb7
     description: 
     fmodEventEN:
       Guid:
@@ -4492,7 +4268,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0536d1a
+  - lineID: line:0ee6643
     description: 
     fmodEventEN:
       Guid:
@@ -4508,7 +4284,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:01cdb67
+  - lineID: line:042890f
     description: 
     fmodEventEN:
       Guid:
@@ -4524,7 +4300,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0a3e2d7
+  - lineID: line:00a2914
     description: 
     fmodEventEN:
       Guid:
@@ -4540,7 +4316,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:02833ad
+  - lineID: line:02b10ac
     description: 
     fmodEventEN:
       Guid:
@@ -4556,7 +4332,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0e39826
+  - lineID: line:025072c
     description: 
     fmodEventEN:
       Guid:
@@ -4572,7 +4348,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:08e0167
+  - lineID: line:09dea0b
     description: 
     fmodEventEN:
       Guid:
@@ -4588,7 +4364,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0e757ff
+  - lineID: line:0f5f333
     description: 
     fmodEventEN:
       Guid:
@@ -4604,7 +4380,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:097fad0
+  - lineID: line:0d12a29
     description: 
     fmodEventEN:
       Guid:
@@ -4620,7 +4396,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:050e791
+  - lineID: line:0ca3bc7
     description: 
     fmodEventEN:
       Guid:
@@ -4636,7 +4412,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0258fcf
+  - lineID: line:0c14b9c
     description: 
     fmodEventEN:
       Guid:
@@ -4652,7 +4428,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:033f179
+  - lineID: line:0fedf41
     description: 
     fmodEventEN:
       Guid:
@@ -4668,7 +4444,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0612eaf
+  - lineID: line:0de372d
     description: 
     fmodEventEN:
       Guid:
@@ -4684,7 +4460,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0d8d7a7
+  - lineID: line:0408ade
     description: 
     fmodEventEN:
       Guid:
@@ -4700,7 +4476,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0f8b87b
+  - lineID: line:0477a25
     description: 
     fmodEventEN:
       Guid:
@@ -4716,7 +4492,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0cf2e29
+  - lineID: line:0477950
     description: 
     fmodEventEN:
       Guid:
@@ -4732,7 +4508,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:052c62f
+  - lineID: line:000375e
     description: 
     fmodEventEN:
       Guid:
@@ -4748,7 +4524,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:063b486
+  - lineID: line:08c8321
     description: 
     fmodEventEN:
       Guid:
@@ -4764,7 +4540,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0efcae7
+  - lineID: line:0c4bce6
     description: 
     fmodEventEN:
       Guid:
@@ -4780,7 +4556,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0bcdae8
+  - lineID: line:0c58ab1
     description: 
     fmodEventEN:
       Guid:
@@ -4796,7 +4572,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0a08025
+  - lineID: line:00f1df8
     description: 
     fmodEventEN:
       Guid:
@@ -4812,7 +4588,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0ccd40b
+  - lineID: line:06af1b4
     description: 
     fmodEventEN:
       Guid:
@@ -4828,7 +4604,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0f8d115
+  - lineID: line:092e9cb
     description: 
     fmodEventEN:
       Guid:
@@ -4844,7 +4620,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:07dec3a
+  - lineID: line:0707d85
     description: 
     fmodEventEN:
       Guid:
@@ -4860,7 +4636,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0ec8985
+  - lineID: line:04123ec
     description: 
     fmodEventEN:
       Guid:
@@ -4876,7 +4652,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:05a6e25
+  - lineID: line:0c1cfc2
     description: 
     fmodEventEN:
       Guid:
@@ -4892,7 +4668,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0875ebd
+  - lineID: line:0a03721
     description: 
     fmodEventEN:
       Guid:
@@ -4908,7 +4684,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:05bdaa2
+  - lineID: line:06f5556
     description: 
     fmodEventEN:
       Guid:
@@ -4924,7 +4700,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0ec85d1
+  - lineID: line:05fb45b
     description: 
     fmodEventEN:
       Guid:
@@ -4940,7 +4716,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0eb9135
+  - lineID: line:08ec04f
     description: 
     fmodEventEN:
       Guid:
@@ -4956,7 +4732,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:03bfdf7
+  - lineID: line:0a39b02
     description: 
     fmodEventEN:
       Guid:
@@ -4972,7 +4748,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:051c4fb
+  - lineID: line:09a477b
     description: 
     fmodEventEN:
       Guid:
@@ -4988,7 +4764,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0a838b7
+  - lineID: line:0144dac
     description: 
     fmodEventEN:
       Guid:
@@ -5004,7 +4780,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:09ec7c1
+  - lineID: line:01aae38
     description: 
     fmodEventEN:
       Guid:
@@ -5020,7 +4796,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:00c7d3d
+  - lineID: line:0c55016
     description: 
     fmodEventEN:
       Guid:
@@ -5036,7 +4812,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0447ddf
+  - lineID: line:071a432
     description: 
     fmodEventEN:
       Guid:
@@ -5052,7 +4828,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0a1d0b2
+  - lineID: line:0baec1c
     description: 
     fmodEventEN:
       Guid:
@@ -5068,7 +4844,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:06d655f
+  - lineID: line:0321874
     description: 
     fmodEventEN:
       Guid:
@@ -5084,7 +4860,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0f1f394
+  - lineID: line:0a72c54
     description: 
     fmodEventEN:
       Guid:
@@ -5100,7 +4876,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0007052
+  - lineID: line:0cfab70
     description: 
     fmodEventEN:
       Guid:
@@ -5116,7 +4892,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0bf331b
+  - lineID: line:0633d6f
     description: 
     fmodEventEN:
       Guid:
@@ -5132,7 +4908,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:034367a
+  - lineID: line:0ed566d
     description: 
     fmodEventEN:
       Guid:
@@ -5148,7 +4924,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0b528c3
+  - lineID: line:01a48e3
     description: 
     fmodEventEN:
       Guid:
@@ -5164,7 +4940,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:023662f
+  - lineID: line:0aa53ec
     description: 
     fmodEventEN:
       Guid:
@@ -5180,7 +4956,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0455115
+  - lineID: line:0f94a43
     description: 
     fmodEventEN:
       Guid:
@@ -5196,7 +4972,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:021cfa6
+  - lineID: line:0acfbbc
     description: 
     fmodEventEN:
       Guid:
@@ -5212,7 +4988,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0e21976
+  - lineID: line:024e583
     description: 
     fmodEventEN:
       Guid:
@@ -5228,7 +5004,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:00f986a
+  - lineID: line:0973e24
     description: 
     fmodEventEN:
       Guid:
@@ -5244,7 +5020,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0a289fa
+  - lineID: line:0bbc4b1
     description: 
     fmodEventEN:
       Guid:
@@ -5260,7 +5036,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:071e7fd
+  - lineID: line:0629892
     description: 
     fmodEventEN:
       Guid:
@@ -5276,7 +5052,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:043c65b
+  - lineID: line:0dac129
     description: 
     fmodEventEN:
       Guid:
@@ -5292,7 +5068,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0b99b61
+  - lineID: line:0b0a91f
     description: 
     fmodEventEN:
       Guid:
@@ -5308,7 +5084,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0f60fc2
+  - lineID: line:0d0b3dc
     description: 
     fmodEventEN:
       Guid:
@@ -5324,7 +5100,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0c7522e
+  - lineID: line:0764ba7
     description: 
     fmodEventEN:
       Guid:
@@ -5340,7 +5116,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:09abe53
+  - lineID: line:0f42e11
     description: 
     fmodEventEN:
       Guid:
@@ -5356,7 +5132,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0541f5b
+  - lineID: line:0100a02
     description: 
     fmodEventEN:
       Guid:
@@ -5372,7 +5148,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:05a9c04
+  - lineID: line:05b7c78
     description: 
     fmodEventEN:
       Guid:
@@ -5388,7 +5164,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:09eef2d
+  - lineID: line:0d20b8a
     description: 
     fmodEventEN:
       Guid:
@@ -5404,7 +5180,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0b75951
+  - lineID: line:0c90528
     description: 
     fmodEventEN:
       Guid:
@@ -5420,7 +5196,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:0cdc587
+  - lineID: line:06940ea
     description: 
     fmodEventEN:
       Guid:
@@ -5436,7 +5212,7 @@ MonoBehaviour:
         Data3: 0
         Data4: 0
       Path: 
-  - lineID: line:05c3968
+  - lineID: line:084d00a
     description: 
     fmodEventEN:
       Guid:
@@ -11378,7 +11154,7 @@ PrefabInstance:
     - target: {fileID: 8309902628685535410, guid: 52571f68872914e24837210513edea1d,
         type: 3}
       propertyPath: startNode
-      value: FightingClub
+      value: Beginning
       objectReference: {fileID: 0}
     - target: {fileID: 8309902628685535410, guid: 52571f68872914e24837210513edea1d,
         type: 3}
