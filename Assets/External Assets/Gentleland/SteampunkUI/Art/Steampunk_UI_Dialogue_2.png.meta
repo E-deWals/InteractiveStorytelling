@@ -154,10 +154,10 @@ TextureImporter:
       name: Steampunk_UI_Dialogue_2_0
       rect:
         serializedVersion: 2
-        x: 51
+        x: 50
         y: 549
-        width: 885
-        height: 500
+        width: 891
+        height: 501
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
