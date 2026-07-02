@@ -37,6 +37,8 @@ Witch: Now go on, I'll be watching... #line:0846b47
 
 title: RegularStreet
 ---
+<<set_enabled_in_unity "BakerAudioFire" true>>
+<<set_enabled_in_unity "BakerAudio" false>>
 Baker: "Where do you think you're going with that bread? You have to pay for that!" #line:0d3680c 
 Woman: "Please sir, me and my children, we are starving. I can't afford anything, my husband died fighting for this kingdom." #line:0bbc278 
 Baker: "Look lady i understand your situation, but were all struggeling to make ends meet here so you can't just go around stealing things" #line:0c589e9 
@@ -56,17 +58,24 @@ Woman: "My regent... there's no reason for you to intervene with such a small is
     Woman: "My regent. i can't-" #line:0af5b34 
     Regent: "You can, and you will. You are my subject and are a widow because of my wars. I am sorry for what happened to your husband, take this money, its the least i could do. " #line:0126eb8 
     Woman: "My regent, thank you, thank you so much" #line:07671d4 
-        <<walk_to "Woman" "MomTalk">>
     <<set $reputation to $reputation + 25>>
     <<set $payedWoman to true>>
+    <<walk_to "Woman" "MomTalk" 0 false>>
+    <<wait 2>>
+    <<set_enabled_in_unity "BakerAudioFire" false>>
+    <<set_enabled_in_unity "BakerAudio" true>>
 -> Silence #line:0ff6115 
     Regent: "Silence, I saw what happened, if you really were starving you would be spending your time finding a job instead of stealing from others" #line:03f7b8f 
     Woman: "You're right my regent, my apologies. It's just that-" #line:0db8321 
     Regent: "I heared your excuses, you should be lucky i don't throw you into jail with that mentality, now go ahead and apologise to the baker and leave. " #line:0e26352 
+        <<walk_to "Woman" "MomTalk" 0 false>>
     Baker: "My regent was that really necessary? She is starving and doesn't know what to do" #line:047496c 
     Regent: "So you would want me to condone stealing instead?" #line:01b361c 
     Baker: "Well no ofcourse not, my apologies my regent." #line:09c8e16 
     <<set $reputation to $reputation - 25>>
+    <<wait 2>>
+    <<set_enabled_in_unity "BakerAudioFire" false>>
+    <<set_enabled_in_unity "BakerAudio" true>>
 ===
 
 title: FightingClub
