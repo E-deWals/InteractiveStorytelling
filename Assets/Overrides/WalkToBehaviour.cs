@@ -52,7 +52,6 @@ public class WalkToBehaviour : MonoBehaviour {
             transform.forward = Vector3.Slerp(transform.forward, agent.velocity.normalized, 0.015f);
         }
     }
-
     public IEnumerator WalkTo(GameObject destination=null, float distance=0f, bool shouldWait = true) {
         target = destination;
         targetDistance = distance;

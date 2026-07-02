@@ -56,6 +56,7 @@ Woman: "My regent... there's no reason for you to intervene with such a small is
     Woman: "My regent. i can't-" #line:0af5b34 
     Regent: "You can, and you will. You are my subject and are a widow because of my wars. I am sorry for what happened to your husband, take this money, its the least i could do. " #line:0126eb8 
     Woman: "My regent, thank you, thank you so much" #line:07671d4 
+        <<walk_to "Woman" "MomTalk">>
     <<set $reputation to $reputation + 25>>
     <<set $payedWoman to true>>
 -> Silence #line:0ff6115 
