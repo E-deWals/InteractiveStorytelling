@@ -170,6 +170,7 @@ Witch: I can basically see the mana radiating off of him... interesting" #line:0
 
 title: heroesParty
 ---
+<<set_enabled_in_unity "SmithBonk" false>>
 Regent: "What is going on here" #line:0107e39 
 Smith: "My regent-" #line:0ffb971 
 Party leader: "So you're the noble regent of this city, let me introduce myself." #line:03ae300 
@@ -190,7 +191,8 @@ Witch: I bet these people could be very useful... if you play your cards right "
     Epheulia: "Quiet, the regent has spoken, let us be on our way then." #line:02b1364 
 -> Ignore it #line:0ecfeea 
     Regent: "I will not waste my time on this sorry excuse of a party without manners. Find a solution yourself" #line:0c4ec73 
-
+<<wait 2>>
+<<set_enabled_in_unity "SmithBonk" true>>
 ===
 
 title: Uprise
