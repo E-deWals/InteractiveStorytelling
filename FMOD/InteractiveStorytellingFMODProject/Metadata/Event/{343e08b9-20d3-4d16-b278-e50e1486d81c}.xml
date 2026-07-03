@@ -61,6 +61,7 @@
 	<object class="GroupTrack" id="{053b4439-9a91-4c5e-87e9-5b70b77c9b8f}">
 		<relationship name="modules">
 			<destination>{b57d154e-a13d-4068-8795-d03ceea340e9}</destination>
+			<destination>{0f17db58-140b-4d73-b62c-50dc1772ba7c}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{76074d82-b945-4f58-9a01-904bc4fb731b}</destination>
@@ -69,6 +70,7 @@
 	<object class="Timeline" id="{ed6b06d7-6f94-46d5-8605-cb814ad97dbf}">
 		<relationship name="modules">
 			<destination>{b57d154e-a13d-4068-8795-d03ceea340e9}</destination>
+			<destination>{0f17db58-140b-4d73-b62c-50dc1772ba7c}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{43c8d6f8-5de6-4468-900d-3528229a0d6e}">
@@ -90,7 +92,24 @@
 	<object class="MixerBusPanner" id="{28f3d5f6-991b-4020-ae6b-9014b5beb77e}" />
 	<object class="SingleSound" id="{b57d154e-a13d-4068-8795-d03ceea340e9}">
 		<property name="length">
-			<value>4.5714285714285712</value>
+			<value>1.5</value>
+		</property>
+		<property name="name">
+			<value>Selkie recording-13</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{e68448b6-0b08-4c30-9f07-dab73090bcaa}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{0f17db58-140b-4d73-b62c-50dc1772ba7c}">
+		<property name="start">
+			<value>1.5</value>
+		</property>
+		<property name="length">
+			<value>2.9214285714285708</value>
+		</property>
+		<property name="timelockedOffset">
+			<value>1.6500000000000001</value>
 		</property>
 		<property name="name">
 			<value>Selkie recording-13</value>
@@ -100,6 +119,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{76074d82-b945-4f58-9a01-904bc4fb731b}">
+		<property name="volume">
+			<value>5</value>
+		</property>
 		<property name="name">
 			<value>Track</value>
 		</property>

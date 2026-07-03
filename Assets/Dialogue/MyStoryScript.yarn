@@ -113,9 +113,9 @@ Witch: I can basically see the mana radiating off of him... interesting" #line:0
             Regent: "Something like this is not without consequences my boy, guards take him away" #line:04b2971 
             Woman: "Wait wait, please. my son he had to, please my regent... grant my son mercy" #line:0d857e1 
             Witch: "My regent, are you sure? this young man, his mana is one of a kind, the potential you'll lose with this decision..."     #line:0d56aac 
-            <<if $payedWoman == true>>
-                Woman: "My regent, i know you're kind... I have seen it before, please grant my son the mercy did once grant me" #line:07cbacd 
-            <<endif>>
+            // <<if $payedWoman == true>>
+            //     Woman: "My regent, i know you're kind... I have seen it before, please grant my son the mercy did once grant me" #line:07cbacd 
+            // <<endif>>
             -> Be merciful #line:0270c3c 
                 Regent: "Fine, but this will not go unnoticed. You will carry out your scentence another way" #line:0d6ad20 
                 Regent: "I noticed that you have great potential to be a mage.  I want you to be a mage of my court. Some of the best mages in this kingdom will teach you everything. In exchange, you are under my control you will not have it easy, but you will be great.  #line:0e7dd30 
