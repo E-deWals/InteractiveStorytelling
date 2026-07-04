@@ -107,7 +107,7 @@ Witch: I can basically see the mana radiating off of him... interesting" #line:0
     Woman: "My regent, I do not wish to lie to you. My son, he has been forced to fight in this fighting club to get money." #line:00fdf57 
     Woman: "He knows this is illigal and I have told him many times not to go, yet he didn't see another option" #line:09282f2 
     Woman: "My regent please deal with this matter with mercy, these people don't have another choice" #line:0fd6ed5 
-        -> "Show me wher this fightclub is" #line:0b0001c 
+        -> "Show me where this fightclub is" #line:0b0001c 
             This will be the end for now #line:06fe26f 
         -> "Something like this doesn't come without consequences" #line:020fa43 
             Regent: "Something like this is not without consequences my boy, guards take him away" #line:04b2971 
@@ -118,7 +118,8 @@ Witch: I can basically see the mana radiating off of him... interesting" #line:0
             // <<endif>>
             -> Be merciful #line:0270c3c 
                 Regent: "Fine, but this will not go unnoticed. You will carry out your scentence another way" #line:0d6ad20 
-                Regent: "I noticed that you have great potential to be a mage.  I want you to be a mage of my court. Some of the best mages in this kingdom will teach you everything. In exchange, you are under my control you will not have it easy, but you will be great.  #line:0e7dd30 
+                Regent: "I noticed that you have great potential to be a mage.  I want you to be a mage of my court. Some of the best mages in this kingdom will teach you everything."
+                Regent: "In exchange, you are under my control you will not have it easy, but you will be great."  #line:0e7dd30 
                 Boy: "Really? Thank you so much my regent, I will work hard I promise!"   #line:0c43a94 
                 This will be the end for now             #line:0d09fd5 
             -> Be merciless #line:01d57a1 

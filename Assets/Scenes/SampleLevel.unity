@@ -5980,13 +5980,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 363601693}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.5655791, z: -0, w: 0.8246941}
-  m_LocalPosition: {x: -15.09, y: 1.1145401, z: 17.4}
+  m_LocalRotation: {x: -0, y: 0.45341387, z: -0, w: 0.8913001}
+  m_LocalPosition: {x: -15.04488, y: 1.1145401, z: 17.771149}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 658678146}
-  m_LocalEulerAnglesHint: {x: 0, y: 68.885, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 53.926, z: 0}
 --- !u!65 &363601695
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6006,8 +6006,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 20, y: 10, z: 10}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 18.331057, y: 10, z: 12.337494}
+  m_Center: {x: -0.8344784, y: 0, z: -1.1687422}
 --- !u!114 &363601696
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8357,7 +8357,7 @@ GameObject:
   m_Component:
   - component: {fileID: 658678146}
   m_Layer: 0
-  m_Name: Shopping District
+  m_Name: Regular Str
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8379,6 +8379,7 @@ Transform:
   - {fileID: 2116134265}
   - {fileID: 2134085217}
   - {fileID: 363601694}
+  - {fileID: 1401212114}
   - {fileID: 1137964519}
   - {fileID: 7805747}
   - {fileID: 1456455813}
@@ -12926,7 +12927,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 76f1bcbe9605b5949a32238389ba2352, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.25
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -16635,6 +16636,77 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 618165227}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1401212113
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1401212114}
+  - component: {fileID: 1401212116}
+  - component: {fileID: 1401212115}
+  m_Layer: 0
+  m_Name: FightClubTrigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1401212114
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1401212113}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.6629113, z: -0, w: 0.748698}
+  m_LocalPosition: {x: -57.14069, y: 1.1145401, z: 37.040768}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 658678146}
+  m_LocalEulerAnglesHint: {x: 0, y: 83.045, z: 0}
+--- !u!65 &1401212115
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1401212113}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 18.331057, y: 10, z: 12.337494}
+  m_Center: {x: -0.8344784, y: 0, z: -1.1687422}
+--- !u!114 &1401212116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1401212113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 479083dec54244b869cf0172a81a6508, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueTrigger
+  canRepeat: 0
+  shouldActivateOnCollision: 1
+  canBeActivated: 1
+  dialogueRunner: {fileID: 536518931}
+  dialogueNodeName: FightingClub
 --- !u!4 &1404015827 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3586625846066184116, guid: 13f9a4439165aa940a06ef426118c6ea,
@@ -17655,7 +17727,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1503971108}
   m_Layer: 0
-  m_Name: Begin str
+  m_Name: Begin Str
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19629,7 +19701,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1724932924}
   m_Layer: 0
-  m_Name: Adventurers street
+  m_Name: Adventurers Str
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22927,7 +22999,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 8411fcd8388e2b14f823d52bfc553239, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.25
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -22936,9 +23008,9 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 30
+  MaxDistance: 50
   Pan2D: 0
-  rolloffMode: 1
+  rolloffMode: 2
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -22954,6 +23026,15 @@ AudioSource:
       weightedMode: 0
       inWeight: 0.33333334
       outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.46938935
+      value: 0.5458586
+      inSlope: -0.07667145
+      outSlope: -0.07667145
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.1843241
     - serializedVersion: 3
       time: 1
       value: 0
@@ -28277,7 +28358,7 @@ Transform:
   m_GameObject: {fileID: 2134085214}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.0022861285, z: -0, w: 0.99999744}
-  m_LocalPosition: {x: -19.6, y: 1.1145401, z: -5.7}
+  m_LocalPosition: {x: -28, y: 1.1145401, z: 3.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -29060,7 +29141,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: SpawnPoint
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4446874341883447508, guid: 7074df04d8ac84886bcb48a7682e68bb, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
