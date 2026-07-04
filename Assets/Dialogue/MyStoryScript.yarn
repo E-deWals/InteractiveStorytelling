@@ -1,7 +1,9 @@
-﻿title: Setup
+title: Setup
 ---
 <<declare $reputation = 50>>
 <<declare $payedWoman = false>>
+<<declare $pissedOffHeroes = false>>
+<<declare $ignoredHeroes = false>>
 ===
 
 title: Start
@@ -74,8 +76,10 @@ Woman: "My regent... there's no reason for you to intervene with such a small is
     Baker: "Well no ofcourse not, my apologies my regent." #line:09c8e16 
     <<set $reputation to $reputation - 25>>
     <<wait 2>>
+    <<set_enabled_in_unity "Boy" true>>
     <<set_enabled_in_unity "BakerAudioFire" false>>
     <<set_enabled_in_unity "BakerAudio" true>>
+    <<set_enabled_in_unity "FightClubTrigger" true>>
 ===
 
 title: FightingClub
@@ -109,7 +113,7 @@ Witch: I can basically see the mana radiating off of him... interesting" #line:0
         Woman: "My regent please deal with this matter with mercy, these people don't have another choice" #line:0fd6ed5 
     <<endif>>> #line:091b9ee 
     -> "Show me where this fightclub is" #line:0b0001c 
-        This will be the end for now #line:06fe26f 
+        This will be the end for now, unless you want to visit other places that you haven't yet #line:06fe26f 
     -> "Something like this doesn't come without consequences" #line:020fa43 
         Regent: "Something like this is not without consequences my boy, guards take him away" #line:04b2971 
         Woman: "Wait wait, please. my son he had to, please my regent... grant my son mercy" #line:0d857e1 
@@ -122,7 +126,7 @@ Witch: I can basically see the mana radiating off of him... interesting" #line:0
             Regent: "I noticed that you have great potential to be a mage.  I want you to be a mage of my court. Some of the best mages in this kingdom will teach you everything."
             Regent: "In exchange, you are under my control you will not have it easy, but you will be great."  #line:0e7dd30 
             Boy: "Really? Thank you so much my regent, I will work hard I promise!"   #line:0c43a94 
-            This will be the end for now             #line:0d09fd5 
+            This will be the end for now, unless you want to visit other places that you haven't yet            #line:0d09fd5 
         -> Be merciless #line:01d57a1 
             Regent: "I do not care about your explenations. What are you standing there for? GUARDS arrest this young man!" #line:0f8c69d 
             <<if $payedWoman == true>>
@@ -160,9 +164,9 @@ Witch: I can basically see the mana radiating off of him... interesting" #line:0
                 Son: "Mother i fear for the people, what if the regent goes against what they said?" #line:04ee047 
                 Woman: "Have faith in our regent sweetling, I believe they will rule with fairness and kindness" #line:0028885 
             <<endif>>
-            This will be the end for now #line:0f5b3a4 
+            This will be the end for now, unless you want to visit other places that you haven't yet #line:0f5b3a4 
         -> "Show me where this fightclub is" #line:0d16077 
-            This will be the end for now  #line:0f5dfc2 
+            This will be the end for now, unless you want to visit other places that you haven't yet  #line:0f5dfc2 
     -> Ignore it #line:06d9c74 
         Witch: "Oh sweet regent, you will regret this, ingoring your Kingdoms problems is no way to rule" #line:0f727ff 
 -> Ignore it #line:0effd1f 
@@ -184,27 +188,67 @@ Witch: I bet these people could be very useful... if you play your cards right "
     Regent: "Thank you fine heroes for saving my kingdom and slaying the dragon nearby, I will reward you for this heroic deed." #line:044ee7c 
     Regent: "Though i do ask you not to make trouble for my subjects again. Take this money and pay the Smith, keep the rest as a reward." #line:03c78e7 
     Smith: "Thank you my regent" #line:05ec022 
+    <<set $reputation to $reputation + 25>>
+    <<jump BardPrep>>
 ->"This is NOT how we handle things" #line:0b96f83 
     Regent: "This is not how we handle things in this kingdom. I suggest you learn some respect before you anger the wrong person. #line:0c6b22c 
+    <<set_enabled_in_unity "Gossip" true>>
     Regent: Now about the reward you were supposed to get.. Half of that will go to the Smith you just threathened, take this as a lesson and continue on your way." #line:0f26799 
     Epheulia: "Thank you for this... lesson. It will be of great use to us in the nearby future" #line:05664c0 
     Party member: "But Epheulia they just-" #line:007797e 
     Epheulia: "Quiet, the regent has spoken, let us be on our way then." #line:02b1364 
+    <<set $reputation to $reputation + 10>>
+    <<set $pissedOffHeroes to true>>
+    <<jump UprisePrep>>
 -> Ignore it #line:0ecfeea 
     Regent: "I will not waste my time on this sorry excuse of a party without manners. Find a solution yourself" #line:0c4ec73 
+    <<set $reputation to $reputation - 10>>
+    <<set $pissedOffHeroes to true>>
+    <<set_enabled_in_unity "Gossip" true>>
+    <<jump UprisePrep>>
+
+===
+title: UprisePrep
+---
 <<walk_to "NPC 1" "WalkTo 1" 0 false>>
 <<walk_to "NPC 2" "WalkTo 2" 0 false>>
 <<walk_to "NPC 3" "WalkTo 3" 0 false>>
 <<walk_to "NPC 4" "WalkTo 4" 0 false>>
 <<walk_to "NPC 5" "WalkTo 5" 0 false>>
 <<wait 2>>
+<<set_enabled_in_unity "Gossip" false>>
 <<set_enabled_in_unity "SmithBonk" true>>
+<<walk_to "Dave" "Dave Walk" 0 false>>
+<<walk_to "Epheulia" "Epheulia Walk" 0 true>>
+<<walk_to "NPC 6" "WalkTo 6" 0 false>>
+<<walk_to "NPC 7" "WalkTo 7" 0 false>>
+<<walk_to "NPC 8" "WalkTo 8" 0 false>>
+<<walk_to "NPC 9" "WalkTo 9" 0 false>>
+<<walk_to "NPC 10" "WalkTo 10" 0 false>>
+<<walk_to "NPC 11" "WalkTo 11" 0 false>>
+<<set_enabled_in_unity "UpriseTrigger" true>>
+===
+
+title: BardPrep
+---
+<<set_enabled_in_unity "Bard" true>>
+<<walk_to "NPC 1" "WalkTo 1" 0 false>>
+<<walk_to "NPC 2" "WalkTo 2" 0 false>>
+<<walk_to "NPC 3" "WalkTo 3" 0 false>>
+<<walk_to "NPC 4" "WalkTo 4" 0 false>>
+<<walk_to "NPC 5" "WalkTo 5" 0 false>>
+<<wait 2>>
+<<set_enabled_in_unity "Gossip" false>>
+<<set_enabled_in_unity "SmithBonk" true>>
+<<walk_to "Dave" "Dave Walk 2" 0 false>>
+<<walk_to "Epheulia" "Epheulia Walk 2" 0 false>>
+<<set_enabled_in_unity "BardTrigger" true>>
 ===
 
 title: Uprise
 ---
 Epheulia: Dear Citizens, we are the group that recently defeated a dragon near this kingdom and saved you all. #line:0780025 
-<<if $reputation > 50>>
+<<if $pissedOffHeroes == true>>
 Epheulia: Your regent, instead of rewarding us for our hard work, punished us and took away half of our intended reward #line:072942d 
 -> "Epheulia didn't I tell you not to cause trouble?" #line:009c63d 
     Regent: Epheulia, didn't I tell you just now not to cause trouble?  #line:069b8d6 
@@ -222,7 +266,7 @@ Epheulia: Your regent, instead of rewarding us for our hard work, punished us an
         Regent: "now please get out of my sight so that I can continue with my business" #line:001277b 
         Party member: "Epheulia tell the regent about- " #line:0e349a0 
         Epheulia: "That's enough from you, we'll be going now regent, thank you for your hospitility" #line:0eb730c 
-        This will be the end for now #line:0748fb3 
+        This will be the end for now, unless you want to visit other places that you haven't yet #line:0748fb3 
     ->"Oh I'm sorry dear, did I misunderstand?" #line:0ba95df 
         Regent: "Oh I am so sorry my dear, did I merely misunderstand your past interactions?" #line:0abdafe 
         Regent: "Where you tried to rob one of my subjects?" #line:0031cb0 
@@ -235,7 +279,7 @@ Epheulia: Your regent, instead of rewarding us for our hard work, punished us an
         Epheulia: "you see there is a fightclub just down the road from here. #line:03bd658 
         Epheulia: "I guess you need to start paying some attention your majesty" #line:0034c0a 
         Epheulia: "For now we'll be going, goodluck with that though!" #line:07afbb7 
-        This will be the end for now #line:0ee6643 
+        This will be the end for now, unless you want to visit other places that you haven't yet #line:0ee6643 
 -> "Now now Smith, that's enough" #line:042890f 
     Regent: "Now now smith, that is enough" #line:00a2914 
     Regent: "These heroes, just because they have misunderstood the situation, doesn't make them theves" #line:02b10ac 
@@ -248,11 +292,11 @@ Epheulia: Your regent, instead of rewarding us for our hard work, punished us an
     Regent: My apologies for that Epheulia #line:0c14b9c 
     party member: But that isn't-  #line:0fedf41 
     Epheulia: Thank you for clearing this up with us dear regent, now is there a chance we could talk?  #line:0de372d 
-    This will be the end for now #line:0408ade 
+    This will be the end for now, unless you want to visit other places that you haven't yet #line:0408ade 
     
 
 
-<<elseif $reputation < 50 >>
+<<elseif $ignoredHeroes == true>>
 Epheulia: "Your regent, instead of rewarding us for our hard work disrespected and ignored us" #line:0477a25 
 Regent: "I am the regent of this kingdom, do you want me to interviene in every single quarrel on the street?" #line:0477950 
 Epheulia: "This is not just a simple quarrel on the street." #line:000375e 
@@ -271,7 +315,7 @@ Witch: "I suggest you solve this matter quickly before further consequences aris
         <<jump hearThemOut>>
     -> "I made my decision" #line:05fb45b 
         Regent: "I made my decision, solve it yourselves." #line:08ec04f 
-        This will be the end for now #line:0a39b02 
+        This will be the end for now, unless you want to visit other places that you haven't yet #line:0a39b02 
 <<endif>>
 ===
 
@@ -282,7 +326,7 @@ Regent: "I suppose you have a point there. So if i understand you were robbing t
     -> "Do you really think you deserve a reward after this?" #line:01aae38 
         Regent: "I do not condone this kind of behaviour. People like you do not deserve rewards, be lucky I don't throw you in jail." #line:0c55016 
         Epheulia: "Your mercy is appriciated regent, we shall take our leave now" #line:071a432 
-        This will be the end for now #line:0baec1c 
+        This will be the end for now, unless you want to visit other places that you haven't yet #line:0baec1c 
     -> "You will get your reward, just leave my subjects alone" #line:0321874 
         Regent: "I will grand you a reward though this behaviour will not go unpunished. You will not only apologise to the smith but also give him what you owe him using your reward." #line:0a72c54 
         Epheulia: "Thank you regent for making the right decision." #line:0cfab70 
@@ -295,14 +339,22 @@ Regent: "I suppose you have a point there. So if i understand you were robbing t
         Party member: "But Epheulia they can't just do this to us, we are- " #line:024e583 
         Epheulia: "Shut it, the regent has spoken so we'll listen" #line:0973e24 
         Witch: "Oh my, sweet regent. This choice, though fair, will give you some quite powerful enemies." #line:0bbc4b1 
-        This will be the end for now #line:0629892 
+        This will be the end for now, unless you want to visit other places that you haven't yet #line:0629892 
 ===
 title: BardPerformance
 ---
+<<walk_to "NPC 6" "WalkTo 6" 0 false>>
+<<walk_to "NPC 7" "WalkTo 7" 0 false>>
+<<walk_to "NPC 8" "WalkTo 8" 0 false>>
+<<walk_to "NPC 9" "WalkTo 9" 0 false>>
+<<walk_to "NPC 10" "WalkTo 10" 0 false>>
+<<walk_to "NPC 11" "WalkTo 11" 0 false>>
 Bard: "My regent my regent so sweet and kind, a regent like this is hard to find" #line:0dac129 
-Bard: "My regent my regent so true and fair, stopping bandits I didn't know were there." #line:0b0a91f 
+Bard: "My regent my regent so true and fair, Ruling the people with gentle care." #line:0b0a91f 
 Bard: "A regent like this makes us loyal and strong so let me sing this song" #line:0d0b3dc 
 Bard: "La la la la la la la la la la" #line:0764ba7 
+<<walk_to "Dave" "Dave Walk" 0 false>>
+<<walk_to "Epheulia" "Epheulia Walk" 0 false>>
 Witch: "My my, my sweet regent, looks like someone has an admirer" #line:0f42e11 
 <<wait 2>>
 Epheulia: "My regent, because you did us a favour and didn't arrest us I have decided to give you some information... as a token of friendship" #line:0100a02 
@@ -311,4 +363,5 @@ Epheulia: "A little birdy told me about something quite interesting..." #line:0d
 Epheulia: "You see my regent did you know that there is quite the sensational fightclub in town. All adventurers speak of it." #line:0c90528 
 Regent: "Well my dear I do believe that we could be quite good friends if you continue to serve me like this." #line:06940ea 
 Regent: "For now, take me to this fightclub and we shall see what I do with it." #line:084d00a 
+This will be the end for now, unless you want to visit other places that you haven't yet
 ===
