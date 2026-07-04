@@ -101,44 +101,44 @@ Witch: I can basically see the mana radiating off of him... interesting" #line:0
         Son: "Mother don't, you know about the origins of the club" #line:0f8800f 
         Woman: "So you want me to lie to our regent their face?" #line:0bc0d46 
         Regent: "I suggest you be honest with me" #line:027b6af 
-        Woman: "My son has participated in a fighting club. We needed money to keep the house and my son thought this was a good idea to get money quickly. " #line:06f9c61 
+        Woman: "My son has participated in a fighting club. We needed money to keep the house and my son thought this was a good idea to get money quickly." #line:06f9c61 
     <<else>>
-    Regent: "What caused these scars young one?" #line:0a1afd1 
-    Woman: "My regent, I do not wish to lie to you. My son, he has been forced to fight in this fighting club to get money." #line:00fdf57 
-    Woman: "He knows this is illigal and I have told him many times not to go, yet he didn't see another option" #line:09282f2 
-    Woman: "My regent please deal with this matter with mercy, these people don't have another choice" #line:0fd6ed5 
-        -> "Show me where this fightclub is" #line:0b0001c 
-            This will be the end for now #line:06fe26f 
-        -> "Something like this doesn't come without consequences" #line:020fa43 
-            Regent: "Something like this is not without consequences my boy, guards take him away" #line:04b2971 
-            Woman: "Wait wait, please. my son he had to, please my regent... grant my son mercy" #line:0d857e1 
-            Witch: "My regent, are you sure? this young man, his mana is one of a kind, the potential you'll lose with this decision..."     #line:0d56aac 
+        Regent: "What caused these scars young one?" #line:0a1afd1 
+        Woman: "My regent, I do not wish to lie to you. My son, he has been forced to fight in this fighting club to get money." #line:00fdf57 
+        Woman: "He knows this is illigal and I have told him many times not to go, yet he didn't see another option" #line:09282f2 
+        Woman: "My regent please deal with this matter with mercy, these people don't have another choice" #line:0fd6ed5 
+    <<endif>>> #line:091b9ee 
+    -> "Show me where this fightclub is" #line:0b0001c 
+        This will be the end for now #line:06fe26f 
+    -> "Something like this doesn't come without consequences" #line:020fa43 
+        Regent: "Something like this is not without consequences my boy, guards take him away" #line:04b2971 
+        Woman: "Wait wait, please. my son he had to, please my regent... grant my son mercy" #line:0d857e1 
+        Witch: "My regent, are you sure? this young man, his mana is one of a kind, the potential you'll lose with this decision..."     #line:0d56aac 
             // <<if $payedWoman == true>>
             //     Woman: "My regent, i know you're kind... I have seen it before, please grant my son the mercy did once grant me" #line:07cbacd 
             // <<endif>>
-            -> Be merciful #line:0270c3c 
-                Regent: "Fine, but this will not go unnoticed. You will carry out your scentence another way" #line:0d6ad20 
-                Regent: "I noticed that you have great potential to be a mage.  I want you to be a mage of my court. Some of the best mages in this kingdom will teach you everything."
-                Regent: "In exchange, you are under my control you will not have it easy, but you will be great."  #line:0e7dd30 
-                Boy: "Really? Thank you so much my regent, I will work hard I promise!"   #line:0c43a94 
-                This will be the end for now             #line:0d09fd5 
-            -> Be merciless #line:01d57a1 
-                Regent: "I do not care about your explenations. What are you standing there for? GUARDS arrest this young man!" #line:0f8c69d 
-                <<if $payedWoman == true>>
-                    Woman: "My regent, why... Why would you do this, my son..." #line:0812a46 
-                    Woman: "I  thought you were forgiving, i thought you were kind" #line:07cb3a5 
-                    Witch: "My sweet regent, this is not only a waste of potential, but also cruel to the mother and good meaning son. " #line:07e9886 
-                <<else>>
-                    Witch: "My sweet regent, the potential that you just lost will not go unnoticed, this man could have been a great asset to you and your kingdom." #line:052ac8a 
-                <<endif>>
-                    Witch: "Not only did you fail this young man, you also failed the city. Or did you forget what started all of this?" #line:013ade7 
-                    Witch: "My my,my sweet regent, did you really think that I would let this go. This kid has so much potential, it would be a shame to throw him into jail." #line:011ac45 
-                <<wait 5>>
-                    Witch: "At last we meet, I am saddened to say that this isn't under the circumstances that I hoped to see you, but I had to step in this time. #line:055ea39 
-                    Witch: This kid is special, and I, unlike you, will make sure this power doesn't end up in the wrong hands. " #line:06b119f 
-                    Witch: "Sadly for you, you made the wrong choices, if only you would have been a better person... We could have worked for you." #line:0336988 
-                    Witch: "Consider your kingdom ours now, since you're clearly not... fit to rule" #line:0c23a21 
-    <<endif>>> #line:091b9ee 
+        -> Be merciful #line:0270c3c 
+            Regent: "Fine, but this will not go unnoticed. You will carry out your scentence another way" #line:0d6ad20 
+            Regent: "I noticed that you have great potential to be a mage.  I want you to be a mage of my court. Some of the best mages in this kingdom will teach you everything."
+            Regent: "In exchange, you are under my control you will not have it easy, but you will be great."  #line:0e7dd30 
+            Boy: "Really? Thank you so much my regent, I will work hard I promise!"   #line:0c43a94 
+            This will be the end for now             #line:0d09fd5 
+        -> Be merciless #line:01d57a1 
+            Regent: "I do not care about your explenations. What are you standing there for? GUARDS arrest this young man!" #line:0f8c69d 
+            <<if $payedWoman == true>>
+                Woman: "My regent, why... Why would you do this, my son..." #line:0812a46 
+                 Woman: "I  thought you were forgiving, i thought you were kind" #line:07cb3a5 
+                Witch: "My sweet regent, this is not only a waste of potential, but also cruel to the mother and good meaning son. " #line:07e9886 
+            <<else>>
+                 Witch: "My sweet regent, the potential that you just lost will not go unnoticed, this man could have been a great asset to you and your kingdom." #line:052ac8a 
+            <<endif>>
+                Witch: "Not only did you fail this young man, you also failed the city. Or did you forget what started all of this?" #line:013ade7 
+                Witch: "My my,my sweet regent, did you really think that I would let this go. This kid has so much potential, it would be a shame to throw him into jail." #line:011ac45 
+            <<wait 5>>
+                Witch: "At last we meet, I am saddened to say that this isn't under the circumstances that I hoped to see you, but I had to step in this time. #line:055ea39 
+                Witch: This kid is special, and I, unlike you, will make sure this power doesn't end up in the wrong hands. " #line:06b119f 
+                Witch: "Sadly for you, you made the wrong choices, if only you would have been a better person... We could have worked for you." #line:0336988 
+                Witch: "Consider your kingdom ours now, since you're clearly not... fit to rule" #line:0c23a21 
 -> Listen in more #line:011a5b4 
     <<if $payedWoman == true>>
         Woman: "I know sweetling but the regent just gave me money. It should be enough to get on our feet" #line:0e30312 
@@ -192,6 +192,11 @@ Witch: I bet these people could be very useful... if you play your cards right "
     Epheulia: "Quiet, the regent has spoken, let us be on our way then." #line:02b1364 
 -> Ignore it #line:0ecfeea 
     Regent: "I will not waste my time on this sorry excuse of a party without manners. Find a solution yourself" #line:0c4ec73 
+<<walk_to "NPC 1" "WalkTo 1" 0 false>>
+<<walk_to "NPC 2" "WalkTo 2" 0 false>>
+<<walk_to "NPC 3" "WalkTo 3" 0 false>>
+<<walk_to "NPC 4" "WalkTo 4" 0 false>>
+<<walk_to "NPC 5" "WalkTo 5" 0 false>>
 <<wait 2>>
 <<set_enabled_in_unity "SmithBonk" true>>
 ===
