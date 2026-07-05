@@ -63,23 +63,24 @@ Woman: "My regent... there's no reason for you to intervene with such a small is
     <<set $reputation to $reputation + 25>>
     <<set $payedWoman to true>>
     <<walk_to "Woman" "MomTalk" 0 false>>
-    <<wait 2>>
-    <<set_enabled_in_unity "BakerAudioFire" false>>
-    <<set_enabled_in_unity "BakerAudio" true>>
--> Silence #line:0ff6115 
+    <<set_enabled_in_unity "WomanFootSteps" true>>
+-> "Silence!" #line:0ff6115 
     Regent: "Silence, I saw what happened, if you really were starving you would be spending your time finding a job instead of stealing from others" #line:03f7b8f 
     Woman: "You're right my regent, my apologies. It's just that-" #line:0db8321 
     Regent: "I heared your excuses, you should be lucky i don't throw you into jail with that mentality, now go ahead and apologise to the baker and leave. " #line:0e26352 
         <<walk_to "Woman" "MomTalk" 0 false>>
+        <<set_enabled_in_unity "WomanFootSteps" true>>
     Baker: "My regent was that really necessary? She is starving and doesn't know what to do" #line:047496c 
     Regent: "So you would want me to condone stealing instead?" #line:01b361c 
     Baker: "Well no ofcourse not, my apologies my regent." #line:09c8e16 
     <<set $reputation to $reputation - 25>>
-    <<wait 2>>
-    <<set_enabled_in_unity "Boy" true>>
-    <<set_enabled_in_unity "BakerAudioFire" false>>
-    <<set_enabled_in_unity "BakerAudio" true>>
-    <<set_enabled_in_unity "FightClubTrigger" true>>
+<<set_enabled_in_unity "Boy" true>>
+<<wait 2>>
+<<set_enabled_in_unity "BakerAudioFire" false>>
+<<set_enabled_in_unity "BakerAudio" true>>
+<<wait_for_location "Woman" "MomTalk">>
+<<set_enabled_in_unity "WomanFootSteps" false>>
+<<set_enabled_in_unity "FightClubTrigger" true>>
 ===
 
 title: FightingClub
@@ -90,6 +91,8 @@ Son: I can't have my siblings become beggars. " #line:0a83248
 Witch: "My my, my sweet regent. This one has a lot of potential. #line:09f007c 
 Witch: I can basically see the mana radiating off of him... interesting" #line:08753de 
 -> "What caused these scars young one?"" #line:0bce6a6 
+    <<walk_to "Woman" "MomRegent" 0 false>>
+    <<walk_to "Boy" "BoyRegent" 0 false>>
     <<if $payedWoman == true>>
         Woman: "Hello my regent, thank you again for helping me. #line:09a09b8 
         Woman: My son wanted to help get food and went to the fightclub nearby to get money" #line:0dae066 
@@ -98,6 +101,10 @@ Witch: I can basically see the mana radiating off of him... interesting" #line:0
         Son: "Mother, just because we now have money doesn't mean that you can just talk about the fightclub in front of the regent. #line:01cebfe 
         son: Those people still need their money. The club is illigal, what if they get caught" #line:0444994 
         Woman: "The regent just saw me steal a piece of bread and gave me money, they are kind and fogiving. There is no need to fear them." #line:0df0530 
+        -> "Show me where this fightclub is" 
+            This will be the end for now, unless you want to visit other places that you haven't yet. 
+        -> "Something like this doesn't come without consequences" 
+            <<jump consequences>>
     <<elseif $reputation < 50>>
         Woman: "My regent, there is no reason for you to worry about such small things" #line:0b437b3 
         Regent: "I will worry about what i choose to worry about, now explain the scars." #line:06da727 
@@ -106,43 +113,20 @@ Witch: I can basically see the mana radiating off of him... interesting" #line:0
         Woman: "So you want me to lie to our regent their face?" #line:0bc0d46 
         Regent: "I suggest you be honest with me" #line:027b6af 
         Woman: "My son has participated in a fighting club. We needed money to keep the house and my son thought this was a good idea to get money quickly." #line:06f9c61 
+        -> "Show me where this fightclub is" 
+            This will be the end for now, unless you want to visit other places that you haven't yet 
+        -> "Something like this doesn't come without consequences" 
+            <<jump consequences>>
     <<else>>
         Regent: "What caused these scars young one?" #line:0a1afd1 
         Woman: "My regent, I do not wish to lie to you. My son, he has been forced to fight in this fighting club to get money." #line:00fdf57 
         Woman: "He knows this is illigal and I have told him many times not to go, yet he didn't see another option" #line:09282f2 
         Woman: "My regent please deal with this matter with mercy, these people don't have another choice" #line:0fd6ed5 
+        -> "Show me where this fightclub is" #line:0b0001c 
+            This will be the end for now, unless you want to visit other places that you haven't yet #line:06fe26f 
+        -> "Something like this doesn't come without consequences" #line:020fa43 
+            <<jump consequences>>
     <<endif>>> #line:091b9ee 
-    -> "Show me where this fightclub is" #line:0b0001c 
-        This will be the end for now, unless you want to visit other places that you haven't yet #line:06fe26f 
-    -> "Something like this doesn't come without consequences" #line:020fa43 
-        Regent: "Something like this is not without consequences my boy, guards take him away" #line:04b2971 
-        Woman: "Wait wait, please. my son he had to, please my regent... grant my son mercy" #line:0d857e1 
-        Witch: "My regent, are you sure? this young man, his mana is one of a kind, the potential you'll lose with this decision..."     #line:0d56aac 
-            // <<if $payedWoman == true>>
-            //     Woman: "My regent, i know you're kind... I have seen it before, please grant my son the mercy did once grant me" #line:07cbacd 
-            // <<endif>>
-        -> Be merciful #line:0270c3c 
-            Regent: "Fine, but this will not go unnoticed. You will carry out your scentence another way" #line:0d6ad20 
-            Regent: "I noticed that you have great potential to be a mage.  I want you to be a mage of my court. Some of the best mages in this kingdom will teach you everything."
-            Regent: "In exchange, you are under my control you will not have it easy, but you will be great."  #line:0e7dd30 
-            Boy: "Really? Thank you so much my regent, I will work hard I promise!"   #line:0c43a94 
-            This will be the end for now, unless you want to visit other places that you haven't yet            #line:0d09fd5 
-        -> Be merciless #line:01d57a1 
-            Regent: "I do not care about your explenations. What are you standing there for? GUARDS arrest this young man!" #line:0f8c69d 
-            <<if $payedWoman == true>>
-                Woman: "My regent, why... Why would you do this, my son..." #line:0812a46 
-                 Woman: "I  thought you were forgiving, i thought you were kind" #line:07cb3a5 
-                Witch: "My sweet regent, this is not only a waste of potential, but also cruel to the mother and good meaning son. " #line:07e9886 
-            <<else>>
-                 Witch: "My sweet regent, the potential that you just lost will not go unnoticed, this man could have been a great asset to you and your kingdom." #line:052ac8a 
-            <<endif>>
-                Witch: "Not only did you fail this young man, you also failed the city. Or did you forget what started all of this?" #line:013ade7 
-                Witch: "My my,my sweet regent, did you really think that I would let this go. This kid has so much potential, it would be a shame to throw him into jail." #line:011ac45 
-            <<wait 5>>
-                Witch: "At last we meet, I am saddened to say that this isn't under the circumstances that I hoped to see you, but I had to step in this time. #line:055ea39 
-                Witch: This kid is special, and I, unlike you, will make sure this power doesn't end up in the wrong hands. " #line:06b119f 
-                Witch: "Sadly for you, you made the wrong choices, if only you would have been a better person... We could have worked for you." #line:0336988 
-                Witch: "Consider your kingdom ours now, since you're clearly not... fit to rule" #line:0c23a21 
 -> Listen in more #line:011a5b4 
     <<if $payedWoman == true>>
         Woman: "I know sweetling but the regent just gave me money. It should be enough to get on our feet" #line:0e30312 
@@ -171,6 +155,38 @@ Witch: I can basically see the mana radiating off of him... interesting" #line:0
         Witch: "Oh sweet regent, you will regret this, ingoring your Kingdoms problems is no way to rule" #line:0f727ff 
 -> Ignore it #line:0effd1f 
     Witch: "Oh sweet regent, you will regret this, ingoring your Kingdoms problems is no way to rule" #line:09d0751 
+===
+
+title: consequences
+---
+Regent: "Something like this is not without consequences my boy, guards take him away" #line:04b2971 
+        Woman: "Wait wait, please. my son he had to, please my regent... grant my son mercy" #line:0d857e1 
+        Witch: "My regent, are you sure? this young man, his mana is one of a kind, the potential you'll lose with this decision..."     #line:0d56aac 
+            // <<if $payedWoman == true>>
+            //     Woman: "My regent, i know you're kind... I have seen it before, please grant my son the mercy did once grant me" #line:07cbacd 
+            // <<endif>>
+        -> Be merciful #line:0270c3c 
+            Regent: "Fine, but this will not go unnoticed. You will carry out your scentence another way" #line:0d6ad20 
+            Regent: "I noticed that you have great potential to be a mage.  I want you to be a mage of my court. Some of the best mages in this kingdom will teach you everything."
+            Regent: "In exchange, you are under my control you will not have it easy, but you will be great."  #line:0e7dd30 
+            Boy: "Really? Thank you so much my regent, I will work hard I promise!"   #line:0c43a94 
+            This will be the end for now, unless you want to visit other places that you haven't yet            #line:0d09fd5 
+        -> Be merciless #line:01d57a1 
+            Regent: "I do not care about your explenations. What are you standing there for? GUARDS arrest this young man!" #line:0f8c69d 
+            <<if $payedWoman == true>>
+                Woman: "My regent, why... Why would you do this, my son..." #line:0812a46 
+                 Woman: "I  thought you were forgiving, i thought you were kind" #line:07cb3a5 
+                Witch: "My sweet regent, this is not only a waste of potential, but also cruel to the mother and good meaning son. " #line:07e9886 
+            <<else>>
+                 Witch: "My sweet regent, the potential that you just lost will not go unnoticed, this man could have been a great asset to you and your kingdom." #line:052ac8a 
+            <<endif>>
+                Witch: "Not only did you fail this young man, you also failed the city. Or did you forget what started all of this?" #line:013ade7 
+                Witch: "My my,my sweet regent, did you really think that I would let this go. This kid has so much potential, it would be a shame to throw him into jail." #line:011ac45 
+            <<wait 5>>
+                Witch: "At last we meet, I am saddened to say that this isn't under the circumstances that I hoped to see you, but I had to step in this time. #line:055ea39 
+                Witch: This kid is special, and I, unlike you, will make sure this power doesn't end up in the wrong hands. " #line:06b119f 
+                Witch: "Sadly for you, you made the wrong choices, if only you would have been a better person... We could have worked for you." #line:0336988 
+                Witch: "Consider your kingdom ours now, since you're clearly not... fit to rule" #line:0c23a21 
 ===
 
 title: heroesParty
@@ -280,11 +296,7 @@ Epheulia: Your regent, instead of rewarding us for our hard work, punished us an
         Epheulia: "I guess you need to start paying some attention your majesty" #line:0034c0a 
         Epheulia: "For now we'll be going, goodluck with that though!" #line:07afbb7 
         This will be the end for now, unless you want to visit other places that you haven't yet #line:0ee6643 
--> "Now now Smith, that's enough" #line:042890f 
-    Regent: "Now now smith, that is enough" #line:00a2914 
-    Regent: "These heroes, just because they have misunderstood the situation, doesn't make them theves" #line:02b10ac 
-    Smith: But my regent- #line:025072c 
-    Regent: I have heared enough smith, you can go.  #line:09dea0b 
+-> "Let me "explain" the situation" #line:042890f 
     <<set $reputation to $reputation- 10>>
     Regent: Now my dear subjects, let me explain the situation. #line:0f5f333 
     Regent: These lovely heroes weren't acustomed to our rules yet. #line:0d12a29 
@@ -353,10 +365,16 @@ Bard: "My regent my regent so sweet and kind, a regent like this is hard to find
 Bard: "My regent my regent so true and fair, Ruling the people with gentle care." #line:0b0a91f 
 Bard: "A regent like this makes us loyal and strong so let me sing this song" #line:0d0b3dc 
 Bard: "La la la la la la la la la la" #line:0764ba7 
+<<set_enabled_in_unity "Crowd" true>>
+<<walk_to "NPC 6" "WalkToAfterBard 6" 0 false>>
+<<walk_to "NPC 7" "WalkToAfterBard 7" 0 false>>
+<<walk_to "NPC 8" "WalkToAfterBard 8" 0 false>>
+<<walk_to "NPC 9" "WalkToAfterBard 9" 0 false>>
+<<walk_to "NPC 10" "WalkToAfterBard 10" 0 false>>
+<<walk_to "NPC 11" "WalkToAfterBard 11" 0 false>>
 <<walk_to "Dave" "Dave Walk" 0 false>>
 <<walk_to "Epheulia" "Epheulia Walk" 0 false>>
 Witch: "My my, my sweet regent, looks like someone has an admirer" #line:0f42e11 
-<<wait 2>>
 Epheulia: "My regent, because you did us a favour and didn't arrest us I have decided to give you some information... as a token of friendship" #line:0100a02 
 Regent: "Go on..." #line:05b7c78 
 Epheulia: "A little birdy told me about something quite interesting..." #line:0d20b8a 
